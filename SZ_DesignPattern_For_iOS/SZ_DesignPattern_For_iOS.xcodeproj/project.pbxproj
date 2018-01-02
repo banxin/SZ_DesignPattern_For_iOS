@@ -1,0 +1,1634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */; };
+		A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2101FFA03E400D5BCFD /* SZReceiver.m */; };
+		A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */; };
+		A923C2171FFA051C00D5BCFD /* SZInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2161FFA051C00D5BCFD /* SZInvoker.m */; };
+		A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */; };
+		A923C21E1FFA086A00D5BCFD /* SZBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */; };
+		A923C2211FFA09B400D5BCFD /* SZBakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */; };
+		A923C2241FFA0AA100D5BCFD /* SZWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2231FFA0AA100D5BCFD /* SZWaiter.m */; };
+		A989F3451FECFE2F0085CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3441FECFE2F0085CBAC /* AppDelegate.m */; };
+		A989F34D1FECFE2F0085CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A989F34C1FECFE2F0085CBAC /* Assets.xcassets */; };
+		A989F3501FECFE2F0085CBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A989F34E1FECFE2F0085CBAC /* LaunchScreen.storyboard */; };
+		A989F3531FECFE2F0085CBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3521FECFE2F0085CBAC /* main.m */; };
+		A989F35D1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F35C1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.m */; };
+		A989F3681FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3671FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.m */; };
+		A989F4041FECFEA80085CBAC /* SZDecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3771FECFEA60085CBAC /* SZDecoratorViewController.m */; };
+		A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F37A1FECFEA60085CBAC /* SZCoffeeBeanB.m */; };
+		A989F4061FECFEA80085CBAC /* SZCoffeeBeanA.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F37C1FECFEA60085CBAC /* SZCoffeeBeanA.m */; };
+		A989F4071FECFEA80085CBAC /* SZMakeCoffeeWithMocha.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3821FECFEA60085CBAC /* SZMakeCoffeeWithMocha.m */; };
+		A989F4081FECFEA80085CBAC /* SZMakeCoffeeWithSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3841FECFEA60085CBAC /* SZMakeCoffeeWithSugar.m */; };
+		A989F4091FECFEA80085CBAC /* SZMakeCoffeeWithMilk.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3851FECFEA60085CBAC /* SZMakeCoffeeWithMilk.m */; };
+		A989F40A1FECFEA80085CBAC /* SZMakeCoffee.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3871FECFEA60085CBAC /* SZMakeCoffee.m */; };
+		A989F40B1FECFEA80085CBAC /* SZConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F38D1FECFEA60085CBAC /* SZConcreteDecoratorB.m */; };
+		A989F40C1FECFEA80085CBAC /* SZDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F38E1FECFEA60085CBAC /* SZDecorator.m */; };
+		A989F40D1FECFEA80085CBAC /* SZConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F38F1FECFEA60085CBAC /* SZConcreteDecoratorA.m */; };
+		A989F40E1FECFEA80085CBAC /* SZConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3911FECFEA60085CBAC /* SZConcreteComponent.m */; };
+		A989F40F1FECFEA80085CBAC /* SZGovernmentBond.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3961FECFEA60085CBAC /* SZGovernmentBond.m */; };
+		A989F4101FECFEA80085CBAC /* SZFund.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3971FECFEA60085CBAC /* SZFund.m */; };
+		A989F4111FECFEA80085CBAC /* SZRealEstate.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3981FECFEA60085CBAC /* SZRealEstate.m */; };
+		A989F4121FECFEA80085CBAC /* SZStock.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F39F1FECFEA60085CBAC /* SZStock.m */; };
+		A989F4131FECFEA80085CBAC /* SZFacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3A01FECFEA60085CBAC /* SZFacadeViewController.m */; };
+		A989F4141FECFEA80085CBAC /* SZBuildPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3A61FECFEA60085CBAC /* SZBuildPerson.m */; };
+		A989F4151FECFEA80085CBAC /* SZBuildArm.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3A71FECFEA60085CBAC /* SZBuildArm.m */; };
+		A989F4161FECFEA80085CBAC /* SZBuildFatPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3A91FECFEA60085CBAC /* SZBuildFatPerson.m */; };
+		A989F4171FECFEA80085CBAC /* SZBulidThinPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3AC1FECFEA60085CBAC /* SZBulidThinPerson.m */; };
+		A989F4181FECFEA80085CBAC /* SZBuildBody.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3AD1FECFEA60085CBAC /* SZBuildBody.m */; };
+		A989F4191FECFEA80085CBAC /* SZBuildPersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3AE1FECFEA60085CBAC /* SZBuildPersonDirector.m */; };
+		A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3B11FECFEA60085CBAC /* SZBuildLeg.m */; };
+		A989F41B1FECFEA80085CBAC /* SZBulidHead.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3B21FECFEA60085CBAC /* SZBulidHead.m */; };
+		A989F41C1FECFEA80085CBAC /* SZBuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3B41FECFEA60085CBAC /* SZBuilderViewController.m */; };
+		A989F41D1FECFEA80085CBAC /* SZOpetationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3B71FECFEA60085CBAC /* SZOpetationAdd.m */; };
+		A989F41E1FECFEA80085CBAC /* SZOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3BD1FECFEA60085CBAC /* SZOperationFactory.m */; };
+		A989F41F1FECFEA80085CBAC /* SZOperationDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3BF1FECFEA60085CBAC /* SZOperationDivide.m */; };
+		A989F4201FECFEA80085CBAC /* SZSimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C01FECFEA60085CBAC /* SZSimpleFactoryViewController.m */; };
+		A989F4211FECFEA80085CBAC /* SZOperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C11FECFEA60085CBAC /* SZOperationMultiply.m */; };
+		A989F4221FECFEA80085CBAC /* SZOperationMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C21FECFEA60085CBAC /* SZOperationMinus.m */; };
+		A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C51FECFEA60085CBAC /* SZProxy.m */; };
+		A989F4241FECFEA80085CBAC /* SZPursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C61FECFEA60085CBAC /* SZPursuit.m */; };
+		A989F4251FECFEA80085CBAC /* SZGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3C71FECFEA60085CBAC /* SZGirl.m */; };
+		A989F4261FECFEA80085CBAC /* SZChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3CE1FECFEA60085CBAC /* SZChildren.m */; };
+		A989F4271FECFEA80085CBAC /* SZNanny.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3D01FECFEA60085CBAC /* SZNanny.m */; };
+		A989F4281FECFEA80085CBAC /* SZNurse.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3D11FECFEA60085CBAC /* SZNurse.m */; };
+		A989F4291FECFEA80085CBAC /* SZProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3D41FECFEA60085CBAC /* SZProxyViewController.m */; };
+		A989F42A1FECFEA80085CBAC /* SZTestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3D81FECFEA70085CBAC /* SZTestPaperA.m */; };
+		A989F42B1FECFEA80085CBAC /* SZTestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3DA1FECFEA70085CBAC /* SZTestPaperB.m */; };
+		A989F42C1FECFEA80085CBAC /* SZTestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3DB1FECFEA70085CBAC /* SZTestPaper.m */; };
+		A989F42D1FECFEA80085CBAC /* SZTemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3DD1FECFEA70085CBAC /* SZTemplateMethodViewController.m */; };
+		A989F42E1FECFEA80085CBAC /* SZDesignPatternBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */; };
+		A989F42F1FECFEA80085CBAC /* SZCashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3E61FECFEA70085CBAC /* SZCashReturn.m */; };
+		A989F4301FECFEA80085CBAC /* SZCashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3E81FECFEA70085CBAC /* SZCashRebate.m */; };
+		A989F4311FECFEA80085CBAC /* SZStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3E91FECFEA70085CBAC /* SZStrategyViewController.m */; };
+		A989F4321FECFEA80085CBAC /* SZCashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3EA1FECFEA70085CBAC /* SZCashNormal.m */; };
+		A989F4331FECFEA80085CBAC /* SZCashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3EC1FECFEA70085CBAC /* SZCashContext.m */; };
+		A989F4341FECFEA80085CBAC /* SZOperationAddFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3EF1FECFEA70085CBAC /* SZOperationAddFactory.m */; };
+		A989F4351FECFEA80085CBAC /* SZOperationDivideFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3F11FECFEA70085CBAC /* SZOperationDivideFactory.m */; };
+		A989F4361FECFEA80085CBAC /* SZOperationMultiplyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3F21FECFEA70085CBAC /* SZOperationMultiplyFactory.m */; };
+		A989F4371FECFEA80085CBAC /* SZOperationMinusFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3F31FECFEA70085CBAC /* SZOperationMinusFactory.m */; };
+		A989F4381FECFEA80085CBAC /* SZFactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3F51FECFEA70085CBAC /* SZFactoryMethodViewController.m */; };
+		A989F4391FECFEA80085CBAC /* SZResume.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3FA1FECFEA70085CBAC /* SZResume.m */; };
+		A989F43A1FECFEA80085CBAC /* SZWorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3FC1FECFEA70085CBAC /* SZWorkExperience.m */; };
+		A989F43B1FECFEA80085CBAC /* SZPrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3FF1FECFEA70085CBAC /* SZPrototypeViewController.m */; };
+		A989F43C1FECFEA80085CBAC /* SZSubResume.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4011FECFEA70085CBAC /* SZSubResume.m */; };
+		A989F43D1FECFEA80085CBAC /* SZDesignPatternListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4031FECFEA80085CBAC /* SZDesignPatternListViewController.m */; };
+		A989F4401FEE596B0085CBAC /* SZObserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F43F1FEE596B0085CBAC /* SZObserveViewController.m */; };
+		A989F4431FEE5BB30085CBAC /* SZStockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4421FEE5BB30085CBAC /* SZStockObserver.m */; };
+		A989F4461FEE5BDC0085CBAC /* SZSecretary.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4451FEE5BDC0085CBAC /* SZSecretary.m */; };
+		A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4491FEE61C50085CBAC /* SZNBAObserve.m */; };
+		A989F4511FEE67F40085CBAC /* SZBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4501FEE67F40085CBAC /* SZBoss.m */; };
+		A989F4551FF09A2D0085CBAC /* SZAbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4541FF09A2D0085CBAC /* SZAbstractFactoryViewController.m */; };
+		A989F45A1FF0A0320085CBAC /* SZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4591FF0A0320085CBAC /* SZUser.m */; };
+		A989F45D1FF0A0800085CBAC /* SZSqlserveUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F45C1FF0A0800085CBAC /* SZSqlserveUser.m */; };
+		A989F4611FF0A2C60085CBAC /* SZAccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4601FF0A2C60085CBAC /* SZAccessUser.m */; };
+		A989F4661FF0A41B0085CBAC /* SZSqlserveFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4651FF0A41B0085CBAC /* SZSqlserveFactory.m */; };
+		A989F4691FF0A42A0085CBAC /* SZAccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4681FF0A42A0085CBAC /* SZAccessFactory.m */; };
+		A989F46C1FF0A7150085CBAC /* SZDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F46B1FF0A7150085CBAC /* SZDepartment.m */; };
+		A989F4701FF0A7B30085CBAC /* SZSqlserveDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F46F1FF0A7B30085CBAC /* SZSqlserveDepartment.m */; };
+		A989F4731FF0A7E10085CBAC /* SZAccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4721FF0A7E10085CBAC /* SZAccessDepartment.m */; };
+		A989F4761FF0ABBC0085CBAC /* SZDataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4751FF0ABBC0085CBAC /* SZDataAccess.m */; };
+		A989F47A1FF0D5ED0085CBAC /* SZStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4791FF0D5ED0085CBAC /* SZStateViewController.m */; };
+		A989F47E1FF0D8FA0085CBAC /* SZWork.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F47D1FF0D8FA0085CBAC /* SZWork.m */; };
+		A989F4811FF0DE1C0085CBAC /* SZForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4801FF0DE1C0085CBAC /* SZForenoonState.m */; };
+		A989F4841FF0DEA50085CBAC /* SZNoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4831FF0DEA50085CBAC /* SZNoonState.m */; };
+		A989F4871FF0DECD0085CBAC /* SZAfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4861FF0DECD0085CBAC /* SZAfternoonState.m */; };
+		A989F48A1FF0DEEE0085CBAC /* SZEveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4891FF0DEEE0085CBAC /* SZEveningState.m */; };
+		A989F48D1FF0DF070085CBAC /* SZSleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F48C1FF0DF070085CBAC /* SZSleepingState.m */; };
+		A989F4901FF0E0D10085CBAC /* SZRestState.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F48F1FF0E0D10085CBAC /* SZRestState.m */; };
+		A989F4941FF0F4C90085CBAC /* SZAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4931FF0F4C90085CBAC /* SZAdapterViewController.m */; };
+		A989F4981FF0F6C30085CBAC /* SZForwards.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4971FF0F6C30085CBAC /* SZForwards.m */; };
+		A989F49B1FF0FAE90085CBAC /* SZCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F49A1FF0FAE90085CBAC /* SZCenter.m */; };
+		A989F49E1FF0FB320085CBAC /* SZGuards.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F49D1FF0FB320085CBAC /* SZGuards.m */; };
+		A989F4A11FF0FB990085CBAC /* SZCNCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4A01FF0FB990085CBAC /* SZCNCenter.m */; };
+		A989F4A41FF0FC920085CBAC /* SZTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4A31FF0FC920085CBAC /* SZTranslator.m */; };
+		A989F4A81FF11F7F0085CBAC /* SZMementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4A71FF11F7F0085CBAC /* SZMementoViewController.m */; };
+		A989F4AB1FF122CE0085CBAC /* SZGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4AA1FF122CE0085CBAC /* SZGameRoll.m */; };
+		A989F4AE1FF1236C0085CBAC /* SZRollStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4AD1FF1236C0085CBAC /* SZRollStateMemento.m */; };
+		A989F4B11FF123CC0085CBAC /* SZRollStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4B01FF123CC0085CBAC /* SZRollStateCaretaker.m */; };
+		A989F4B51FF256B00085CBAC /* SZCompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */; };
+		A989F4BB1FF259360085CBAC /* SZLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4BA1FF259360085CBAC /* SZLeaf.m */; };
+		A989F4BF1FF25BC50085CBAC /* SZComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4BE1FF25BC50085CBAC /* SZComposite.m */; };
+		A989F4C31FF2704A0085CBAC /* SZConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */; };
+		A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */; };
+		A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */; };
+		A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */; };
+		A989F4D71FF3CDAA0085CBAC /* SZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */; };
+		A989F4DA1FF3CE350085CBAC /* SZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4D91FF3CE350085CBAC /* SZSingleton.m */; };
+		A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */; };
+		A989F4E41FF48DC60085CBAC /* SZConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */; };
+		A989F4E71FF48E0E0085CBAC /* SZConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */; };
+		A989F4EB1FF4A0DA0085CBAC /* SZRefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */; };
+		A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */; };
+		A989F4F21FF4C0BF0085CBAC /* SZMobileAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */; };
+		A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */; };
+		A989F4FA1FF4C2360085CBAC /* SZMoblieBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */; };
+		A9BE466E1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE466D1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m */; };
+		A9BE46721FFB9E6900798B25 /* SZConcreteHandler1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE46711FFB9E6900798B25 /* SZConcreteHandler1.m */; };
+		A9BE46751FFB9F3D00798B25 /* SZConcreteHandler2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE46741FFB9F3D00798B25 /* SZConcreteHandler2.m */; };
+		A9BE46781FFB9FBB00798B25 /* SZConcreteHandler3.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE46771FFB9FBB00798B25 /* SZConcreteHandler3.m */; };
+		A9BE467C1FFBA70800798B25 /* SZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE467B1FFBA70800798B25 /* SZRequest.m */; };
+		A9BE467F1FFBC70500798B25 /* SZCommonManger.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE467E1FFBC70500798B25 /* SZCommonManger.m */; };
+		A9BE46821FFBC8D900798B25 /* SZMajordomo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE46811FFBC8D900798B25 /* SZMajordomo.m */; };
+		A9BE46851FFBC95C00798B25 /* SZGeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BE46841FFBC95C00798B25 /* SZGeneralManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A989F3591FECFE2F0085CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A989F3381FECFE2F0085CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A989F33F1FECFE2F0085CBAC;
+			remoteInfo = SZ_DesignPattern_For_iOS;
+		};
+		A989F3641FECFE2F0085CBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A989F3381FECFE2F0085CBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A989F33F1FECFE2F0085CBAC;
+			remoteInfo = SZ_DesignPattern_For_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandViewController.h; sourceTree = "<group>"; };
+		A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommandViewController.m; sourceTree = "<group>"; };
+		A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandProtocol.h; sourceTree = "<group>"; };
+		A923C20F1FFA03E400D5BCFD /* SZReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZReceiver.h; sourceTree = "<group>"; };
+		A923C2101FFA03E400D5BCFD /* SZReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZReceiver.m; sourceTree = "<group>"; };
+		A923C2121FFA048E00D5BCFD /* SZConcreteCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteCommand.h; sourceTree = "<group>"; };
+		A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteCommand.m; sourceTree = "<group>"; };
+		A923C2151FFA051C00D5BCFD /* SZInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZInvoker.h; sourceTree = "<group>"; };
+		A923C2161FFA051C00D5BCFD /* SZInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZInvoker.m; sourceTree = "<group>"; };
+		A923C2181FFA077C00D5BCFD /* SZBarbecuer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBarbecuer.h; sourceTree = "<group>"; };
+		A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBarbecuer.m; sourceTree = "<group>"; };
+		A923C21B1FFA07EF00D5BCFD /* SZBakeCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeCommandProtocol.h; sourceTree = "<group>"; };
+		A923C21C1FFA086A00D5BCFD /* SZBakeMuttonCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeMuttonCommand.h; sourceTree = "<group>"; };
+		A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBakeMuttonCommand.m; sourceTree = "<group>"; };
+		A923C21F1FFA09B400D5BCFD /* SZBakeChickenWingCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeChickenWingCommand.h; sourceTree = "<group>"; };
+		A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBakeChickenWingCommand.m; sourceTree = "<group>"; };
+		A923C2221FFA0AA100D5BCFD /* SZWaiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWaiter.h; sourceTree = "<group>"; };
+		A923C2231FFA0AA100D5BCFD /* SZWaiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWaiter.m; sourceTree = "<group>"; };
+		A989F3401FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZ_DesignPattern_For_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F3431FECFE2F0085CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A989F3441FECFE2F0085CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A989F34C1FECFE2F0085CBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A989F34F1FECFE2F0085CBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A989F3511FECFE2F0085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F3521FECFE2F0085CBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A989F3581FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_DesignPattern_For_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F35C1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_DesignPattern_For_iOSTests.m; sourceTree = "<group>"; };
+		A989F35E1FECFE2F0085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F3631FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZ_DesignPattern_For_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A989F3671FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZ_DesignPattern_For_iOSUITests.m; sourceTree = "<group>"; };
+		A989F3691FECFE2F0085CBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDesignPatternListViewController.h; sourceTree = "<group>"; };
+		A989F3771FECFEA60085CBAC /* SZDecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDecoratorViewController.m; sourceTree = "<group>"; };
+		A989F37A1FECFEA60085CBAC /* SZCoffeeBeanB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCoffeeBeanB.m; sourceTree = "<group>"; };
+		A989F37B1FECFEA60085CBAC /* SZCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCoffee.h; sourceTree = "<group>"; };
+		A989F37C1FECFEA60085CBAC /* SZCoffeeBeanA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCoffeeBeanA.m; sourceTree = "<group>"; };
+		A989F37D1FECFEA60085CBAC /* SZCoffeeBeanB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCoffeeBeanB.h; sourceTree = "<group>"; };
+		A989F37E1FECFEA60085CBAC /* SZCoffeeBeanA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCoffeeBeanA.h; sourceTree = "<group>"; };
+		A989F3801FECFEA60085CBAC /* SZMakeCoffeeWithMilk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMakeCoffeeWithMilk.h; sourceTree = "<group>"; };
+		A989F3811FECFEA60085CBAC /* SZMakeCoffeeWithSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMakeCoffeeWithSugar.h; sourceTree = "<group>"; };
+		A989F3821FECFEA60085CBAC /* SZMakeCoffeeWithMocha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMakeCoffeeWithMocha.m; sourceTree = "<group>"; };
+		A989F3831FECFEA60085CBAC /* SZMakeCoffee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMakeCoffee.h; sourceTree = "<group>"; };
+		A989F3841FECFEA60085CBAC /* SZMakeCoffeeWithSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMakeCoffeeWithSugar.m; sourceTree = "<group>"; };
+		A989F3851FECFEA60085CBAC /* SZMakeCoffeeWithMilk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMakeCoffeeWithMilk.m; sourceTree = "<group>"; };
+		A989F3861FECFEA60085CBAC /* SZMakeCoffeeWithMocha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMakeCoffeeWithMocha.h; sourceTree = "<group>"; };
+		A989F3871FECFEA60085CBAC /* SZMakeCoffee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMakeCoffee.m; sourceTree = "<group>"; };
+		A989F38A1FECFEA60085CBAC /* SZConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteDecoratorB.h; sourceTree = "<group>"; };
+		A989F38B1FECFEA60085CBAC /* SZDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDecorator.h; sourceTree = "<group>"; };
+		A989F38C1FECFEA60085CBAC /* SZConcreteDecoratorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteDecoratorA.h; sourceTree = "<group>"; };
+		A989F38D1FECFEA60085CBAC /* SZConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteDecoratorB.m; sourceTree = "<group>"; };
+		A989F38E1FECFEA60085CBAC /* SZDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDecorator.m; sourceTree = "<group>"; };
+		A989F38F1FECFEA60085CBAC /* SZConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteDecoratorA.m; sourceTree = "<group>"; };
+		A989F3911FECFEA60085CBAC /* SZConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteComponent.m; sourceTree = "<group>"; };
+		A989F3921FECFEA60085CBAC /* SZComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZComponent.h; sourceTree = "<group>"; };
+		A989F3931FECFEA60085CBAC /* SZConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteComponent.h; sourceTree = "<group>"; };
+		A989F3941FECFEA60085CBAC /* SZDecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDecoratorViewController.h; sourceTree = "<group>"; };
+		A989F3961FECFEA60085CBAC /* SZGovernmentBond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGovernmentBond.m; sourceTree = "<group>"; };
+		A989F3971FECFEA60085CBAC /* SZFund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFund.m; sourceTree = "<group>"; };
+		A989F3981FECFEA60085CBAC /* SZRealEstate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRealEstate.m; sourceTree = "<group>"; };
+		A989F3991FECFEA60085CBAC /* SZTradeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTradeProtocol.h; sourceTree = "<group>"; };
+		A989F39A1FECFEA60085CBAC /* SZFacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFacadeViewController.h; sourceTree = "<group>"; };
+		A989F39B1FECFEA60085CBAC /* SZStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZStock.h; sourceTree = "<group>"; };
+		A989F39C1FECFEA60085CBAC /* SZGovernmentBond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGovernmentBond.h; sourceTree = "<group>"; };
+		A989F39D1FECFEA60085CBAC /* SZRealEstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRealEstate.h; sourceTree = "<group>"; };
+		A989F39E1FECFEA60085CBAC /* SZFund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFund.h; sourceTree = "<group>"; };
+		A989F39F1FECFEA60085CBAC /* SZStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZStock.m; sourceTree = "<group>"; };
+		A989F3A01FECFEA60085CBAC /* SZFacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFacadeViewController.m; sourceTree = "<group>"; };
+		A989F3A21FECFEA60085CBAC /* SZBuildPersonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildPersonProtocol.h; sourceTree = "<group>"; };
+		A989F3A31FECFEA60085CBAC /* SZBuildBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildBody.h; sourceTree = "<group>"; };
+		A989F3A41FECFEA60085CBAC /* SZBulidThinPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBulidThinPerson.h; sourceTree = "<group>"; };
+		A989F3A51FECFEA60085CBAC /* SZBuildLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildLeg.h; sourceTree = "<group>"; };
+		A989F3A61FECFEA60085CBAC /* SZBuildPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildPerson.m; sourceTree = "<group>"; };
+		A989F3A71FECFEA60085CBAC /* SZBuildArm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildArm.m; sourceTree = "<group>"; };
+		A989F3A81FECFEA60085CBAC /* SZBuildPersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildPersonDirector.h; sourceTree = "<group>"; };
+		A989F3A91FECFEA60085CBAC /* SZBuildFatPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildFatPerson.m; sourceTree = "<group>"; };
+		A989F3AA1FECFEA60085CBAC /* SZBulidHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBulidHead.h; sourceTree = "<group>"; };
+		A989F3AB1FECFEA60085CBAC /* SZBuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuilderViewController.h; sourceTree = "<group>"; };
+		A989F3AC1FECFEA60085CBAC /* SZBulidThinPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBulidThinPerson.m; sourceTree = "<group>"; };
+		A989F3AD1FECFEA60085CBAC /* SZBuildBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildBody.m; sourceTree = "<group>"; };
+		A989F3AE1FECFEA60085CBAC /* SZBuildPersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildPersonDirector.m; sourceTree = "<group>"; };
+		A989F3AF1FECFEA60085CBAC /* SZBuildArm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildArm.h; sourceTree = "<group>"; };
+		A989F3B01FECFEA60085CBAC /* SZBuildPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildPerson.h; sourceTree = "<group>"; };
+		A989F3B11FECFEA60085CBAC /* SZBuildLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuildLeg.m; sourceTree = "<group>"; };
+		A989F3B21FECFEA60085CBAC /* SZBulidHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBulidHead.m; sourceTree = "<group>"; };
+		A989F3B31FECFEA60085CBAC /* SZBuildFatPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBuildFatPerson.h; sourceTree = "<group>"; };
+		A989F3B41FECFEA60085CBAC /* SZBuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZBuilderViewController.m; sourceTree = "<group>"; };
+		A989F3B61FECFEA60085CBAC /* SZOperationDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationDivide.h; sourceTree = "<group>"; };
+		A989F3B71FECFEA60085CBAC /* SZOpetationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOpetationAdd.m; sourceTree = "<group>"; };
+		A989F3B81FECFEA60085CBAC /* SZOperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationFactory.h; sourceTree = "<group>"; };
+		A989F3B91FECFEA60085CBAC /* SZOperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationMultiply.h; sourceTree = "<group>"; };
+		A989F3BA1FECFEA60085CBAC /* SZOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperation.h; sourceTree = "<group>"; };
+		A989F3BB1FECFEA60085CBAC /* SZSimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSimpleFactoryViewController.h; sourceTree = "<group>"; };
+		A989F3BC1FECFEA60085CBAC /* SZOperationMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationMinus.h; sourceTree = "<group>"; };
+		A989F3BD1FECFEA60085CBAC /* SZOperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationFactory.m; sourceTree = "<group>"; };
+		A989F3BE1FECFEA60085CBAC /* SZOpetationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOpetationAdd.h; sourceTree = "<group>"; };
+		A989F3BF1FECFEA60085CBAC /* SZOperationDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationDivide.m; sourceTree = "<group>"; };
+		A989F3C01FECFEA60085CBAC /* SZSimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSimpleFactoryViewController.m; sourceTree = "<group>"; };
+		A989F3C11FECFEA60085CBAC /* SZOperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationMultiply.m; sourceTree = "<group>"; };
+		A989F3C21FECFEA60085CBAC /* SZOperationMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationMinus.m; sourceTree = "<group>"; };
+		A989F3C51FECFEA60085CBAC /* SZProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZProxy.m; sourceTree = "<group>"; };
+		A989F3C61FECFEA60085CBAC /* SZPursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZPursuit.m; sourceTree = "<group>"; };
+		A989F3C71FECFEA60085CBAC /* SZGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGirl.m; sourceTree = "<group>"; };
+		A989F3C81FECFEA60085CBAC /* SZGiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGiveGift.h; sourceTree = "<group>"; };
+		A989F3C91FECFEA60085CBAC /* SZProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZProxy.h; sourceTree = "<group>"; };
+		A989F3CA1FECFEA60085CBAC /* SZPursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZPursuit.h; sourceTree = "<group>"; };
+		A989F3CB1FECFEA60085CBAC /* SZGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGirl.h; sourceTree = "<group>"; };
+		A989F3CC1FECFEA60085CBAC /* SZProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZProxyViewController.h; sourceTree = "<group>"; };
+		A989F3CE1FECFEA60085CBAC /* SZChildren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZChildren.m; sourceTree = "<group>"; };
+		A989F3CF1FECFEA60085CBAC /* SZNurse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNurse.h; sourceTree = "<group>"; };
+		A989F3D01FECFEA60085CBAC /* SZNanny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNanny.m; sourceTree = "<group>"; };
+		A989F3D11FECFEA60085CBAC /* SZNurse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNurse.m; sourceTree = "<group>"; };
+		A989F3D21FECFEA60085CBAC /* SZChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZChildren.h; sourceTree = "<group>"; };
+		A989F3D31FECFEA60085CBAC /* SZNanny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNanny.h; sourceTree = "<group>"; };
+		A989F3D41FECFEA60085CBAC /* SZProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZProxyViewController.m; sourceTree = "<group>"; };
+		A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZDesignPatternBaseViewController.h; sourceTree = "<group>"; };
+		A989F3D71FECFEA70085CBAC /* SZAnswerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAnswerProtocol.h; sourceTree = "<group>"; };
+		A989F3D81FECFEA70085CBAC /* SZTestPaperA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTestPaperA.m; sourceTree = "<group>"; };
+		A989F3D91FECFEA70085CBAC /* SZTemplateMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTemplateMethodViewController.h; sourceTree = "<group>"; };
+		A989F3DA1FECFEA70085CBAC /* SZTestPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTestPaperB.m; sourceTree = "<group>"; };
+		A989F3DB1FECFEA70085CBAC /* SZTestPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTestPaper.m; sourceTree = "<group>"; };
+		A989F3DC1FECFEA70085CBAC /* SZTestPaperA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTestPaperA.h; sourceTree = "<group>"; };
+		A989F3DD1FECFEA70085CBAC /* SZTemplateMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTemplateMethodViewController.m; sourceTree = "<group>"; };
+		A989F3DE1FECFEA70085CBAC /* SZTestPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTestPaperB.h; sourceTree = "<group>"; };
+		A989F3DF1FECFEA70085CBAC /* SZTestPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTestPaper.h; sourceTree = "<group>"; };
+		A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDesignPatternBaseViewController.m; sourceTree = "<group>"; };
+		A989F3E21FECFEA70085CBAC /* SZCashOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCashOperation.h; sourceTree = "<group>"; };
+		A989F3E31FECFEA70085CBAC /* SZCashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCashNormal.h; sourceTree = "<group>"; };
+		A989F3E41FECFEA70085CBAC /* SZStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZStrategyViewController.h; sourceTree = "<group>"; };
+		A989F3E51FECFEA70085CBAC /* SZCashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCashRebate.h; sourceTree = "<group>"; };
+		A989F3E61FECFEA70085CBAC /* SZCashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCashReturn.m; sourceTree = "<group>"; };
+		A989F3E71FECFEA70085CBAC /* SZCashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCashContext.h; sourceTree = "<group>"; };
+		A989F3E81FECFEA70085CBAC /* SZCashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCashRebate.m; sourceTree = "<group>"; };
+		A989F3E91FECFEA70085CBAC /* SZStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZStrategyViewController.m; sourceTree = "<group>"; };
+		A989F3EA1FECFEA70085CBAC /* SZCashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCashNormal.m; sourceTree = "<group>"; };
+		A989F3EB1FECFEA70085CBAC /* SZCashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCashReturn.h; sourceTree = "<group>"; };
+		A989F3EC1FECFEA70085CBAC /* SZCashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCashContext.m; sourceTree = "<group>"; };
+		A989F3EE1FECFEA70085CBAC /* SZFactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZFactoryMethodViewController.h; sourceTree = "<group>"; };
+		A989F3EF1FECFEA70085CBAC /* SZOperationAddFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationAddFactory.m; sourceTree = "<group>"; };
+		A989F3F01FECFEA70085CBAC /* SZOperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationFactory.h; sourceTree = "<group>"; };
+		A989F3F11FECFEA70085CBAC /* SZOperationDivideFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationDivideFactory.m; sourceTree = "<group>"; };
+		A989F3F21FECFEA70085CBAC /* SZOperationMultiplyFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationMultiplyFactory.m; sourceTree = "<group>"; };
+		A989F3F31FECFEA70085CBAC /* SZOperationMinusFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZOperationMinusFactory.m; sourceTree = "<group>"; };
+		A989F3F41FECFEA70085CBAC /* SZOperationAddFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationAddFactory.h; sourceTree = "<group>"; };
+		A989F3F51FECFEA70085CBAC /* SZFactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZFactoryMethodViewController.m; sourceTree = "<group>"; };
+		A989F3F61FECFEA70085CBAC /* SZOperationDivideFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationDivideFactory.h; sourceTree = "<group>"; };
+		A989F3F71FECFEA70085CBAC /* SZOperationMinusFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationMinusFactory.h; sourceTree = "<group>"; };
+		A989F3F81FECFEA70085CBAC /* SZOperationMultiplyFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZOperationMultiplyFactory.h; sourceTree = "<group>"; };
+		A989F3FA1FECFEA70085CBAC /* SZResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZResume.m; sourceTree = "<group>"; };
+		A989F3FB1FECFEA70085CBAC /* SZPrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZPrototypeViewController.h; sourceTree = "<group>"; };
+		A989F3FC1FECFEA70085CBAC /* SZWorkExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWorkExperience.m; sourceTree = "<group>"; };
+		A989F3FD1FECFEA70085CBAC /* SZSubResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZSubResume.h; sourceTree = "<group>"; };
+		A989F3FE1FECFEA70085CBAC /* SZWorkExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWorkExperience.h; sourceTree = "<group>"; };
+		A989F3FF1FECFEA70085CBAC /* SZPrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZPrototypeViewController.m; sourceTree = "<group>"; };
+		A989F4001FECFEA70085CBAC /* SZResume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZResume.h; sourceTree = "<group>"; };
+		A989F4011FECFEA70085CBAC /* SZSubResume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZSubResume.m; sourceTree = "<group>"; };
+		A989F4031FECFEA80085CBAC /* SZDesignPatternListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZDesignPatternListViewController.m; sourceTree = "<group>"; };
+		A989F43E1FEE596B0085CBAC /* SZObserveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZObserveViewController.h; sourceTree = "<group>"; };
+		A989F43F1FEE596B0085CBAC /* SZObserveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZObserveViewController.m; sourceTree = "<group>"; };
+		A989F4411FEE5BB30085CBAC /* SZStockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZStockObserver.h; sourceTree = "<group>"; };
+		A989F4421FEE5BB30085CBAC /* SZStockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZStockObserver.m; sourceTree = "<group>"; };
+		A989F4441FEE5BDC0085CBAC /* SZSecretary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSecretary.h; sourceTree = "<group>"; };
+		A989F4451FEE5BDC0085CBAC /* SZSecretary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSecretary.m; sourceTree = "<group>"; };
+		A989F4471FEE611F0085CBAC /* SZObserve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZObserve.h; sourceTree = "<group>"; };
+		A989F4481FEE61C50085CBAC /* SZNBAObserve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNBAObserve.h; sourceTree = "<group>"; };
+		A989F4491FEE61C50085CBAC /* SZNBAObserve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNBAObserve.m; sourceTree = "<group>"; };
+		A989F44E1FEE668C0085CBAC /* SZSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSubject.h; sourceTree = "<group>"; };
+		A989F44F1FEE67F40085CBAC /* SZBoss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBoss.h; sourceTree = "<group>"; };
+		A989F4501FEE67F40085CBAC /* SZBoss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBoss.m; sourceTree = "<group>"; };
+		A989F4531FF09A2D0085CBAC /* SZAbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAbstractFactoryViewController.h; sourceTree = "<group>"; };
+		A989F4541FF09A2D0085CBAC /* SZAbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAbstractFactoryViewController.m; sourceTree = "<group>"; };
+		A989F4581FF0A0320085CBAC /* SZUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUser.h; sourceTree = "<group>"; };
+		A989F4591FF0A0320085CBAC /* SZUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUser.m; sourceTree = "<group>"; };
+		A989F45B1FF0A0800085CBAC /* SZSqlserveUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSqlserveUser.h; sourceTree = "<group>"; };
+		A989F45C1FF0A0800085CBAC /* SZSqlserveUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSqlserveUser.m; sourceTree = "<group>"; };
+		A989F45F1FF0A2C60085CBAC /* SZAccessUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAccessUser.h; sourceTree = "<group>"; };
+		A989F4601FF0A2C60085CBAC /* SZAccessUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAccessUser.m; sourceTree = "<group>"; };
+		A989F4621FF0A34D0085CBAC /* SZFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFactoryProtocol.h; sourceTree = "<group>"; };
+		A989F4631FF0A3700085CBAC /* SZUserProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUserProtocol.h; sourceTree = "<group>"; };
+		A989F4641FF0A41A0085CBAC /* SZSqlserveFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSqlserveFactory.h; sourceTree = "<group>"; };
+		A989F4651FF0A41B0085CBAC /* SZSqlserveFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSqlserveFactory.m; sourceTree = "<group>"; };
+		A989F4671FF0A42A0085CBAC /* SZAccessFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAccessFactory.h; sourceTree = "<group>"; };
+		A989F4681FF0A42A0085CBAC /* SZAccessFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAccessFactory.m; sourceTree = "<group>"; };
+		A989F46A1FF0A7140085CBAC /* SZDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZDepartment.h; sourceTree = "<group>"; };
+		A989F46B1FF0A7150085CBAC /* SZDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZDepartment.m; sourceTree = "<group>"; };
+		A989F46D1FF0A75A0085CBAC /* SZDepartmentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZDepartmentProtocol.h; sourceTree = "<group>"; };
+		A989F46E1FF0A7B30085CBAC /* SZSqlserveDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSqlserveDepartment.h; sourceTree = "<group>"; };
+		A989F46F1FF0A7B30085CBAC /* SZSqlserveDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSqlserveDepartment.m; sourceTree = "<group>"; };
+		A989F4711FF0A7E10085CBAC /* SZAccessDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAccessDepartment.h; sourceTree = "<group>"; };
+		A989F4721FF0A7E10085CBAC /* SZAccessDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAccessDepartment.m; sourceTree = "<group>"; };
+		A989F4741FF0ABBC0085CBAC /* SZDataAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZDataAccess.h; sourceTree = "<group>"; };
+		A989F4751FF0ABBC0085CBAC /* SZDataAccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZDataAccess.m; sourceTree = "<group>"; };
+		A989F4781FF0D5ED0085CBAC /* SZStateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZStateViewController.h; sourceTree = "<group>"; };
+		A989F4791FF0D5ED0085CBAC /* SZStateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZStateViewController.m; sourceTree = "<group>"; };
+		A989F47B1FF0D87F0085CBAC /* SZStateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZStateProtocol.h; sourceTree = "<group>"; };
+		A989F47C1FF0D8FA0085CBAC /* SZWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWork.h; sourceTree = "<group>"; };
+		A989F47D1FF0D8FA0085CBAC /* SZWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWork.m; sourceTree = "<group>"; };
+		A989F47F1FF0DE1C0085CBAC /* SZForenoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZForenoonState.h; sourceTree = "<group>"; };
+		A989F4801FF0DE1C0085CBAC /* SZForenoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZForenoonState.m; sourceTree = "<group>"; };
+		A989F4821FF0DEA50085CBAC /* SZNoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZNoonState.h; sourceTree = "<group>"; };
+		A989F4831FF0DEA50085CBAC /* SZNoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZNoonState.m; sourceTree = "<group>"; };
+		A989F4851FF0DECD0085CBAC /* SZAfternoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAfternoonState.h; sourceTree = "<group>"; };
+		A989F4861FF0DECD0085CBAC /* SZAfternoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAfternoonState.m; sourceTree = "<group>"; };
+		A989F4881FF0DEEE0085CBAC /* SZEveningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZEveningState.h; sourceTree = "<group>"; };
+		A989F4891FF0DEEE0085CBAC /* SZEveningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZEveningState.m; sourceTree = "<group>"; };
+		A989F48B1FF0DF070085CBAC /* SZSleepingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSleepingState.h; sourceTree = "<group>"; };
+		A989F48C1FF0DF070085CBAC /* SZSleepingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSleepingState.m; sourceTree = "<group>"; };
+		A989F48E1FF0E0D10085CBAC /* SZRestState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRestState.h; sourceTree = "<group>"; };
+		A989F48F1FF0E0D10085CBAC /* SZRestState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRestState.m; sourceTree = "<group>"; };
+		A989F4921FF0F4C90085CBAC /* SZAdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAdapterViewController.h; sourceTree = "<group>"; };
+		A989F4931FF0F4C90085CBAC /* SZAdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAdapterViewController.m; sourceTree = "<group>"; };
+		A989F4951FF0F5B90085CBAC /* SZPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZPlayerProtocol.h; sourceTree = "<group>"; };
+		A989F4961FF0F6C30085CBAC /* SZForwards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZForwards.h; sourceTree = "<group>"; };
+		A989F4971FF0F6C30085CBAC /* SZForwards.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZForwards.m; sourceTree = "<group>"; };
+		A989F4991FF0FAE90085CBAC /* SZCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCenter.h; sourceTree = "<group>"; };
+		A989F49A1FF0FAE90085CBAC /* SZCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCenter.m; sourceTree = "<group>"; };
+		A989F49C1FF0FB320085CBAC /* SZGuards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGuards.h; sourceTree = "<group>"; };
+		A989F49D1FF0FB320085CBAC /* SZGuards.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGuards.m; sourceTree = "<group>"; };
+		A989F49F1FF0FB990085CBAC /* SZCNCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCNCenter.h; sourceTree = "<group>"; };
+		A989F4A01FF0FB990085CBAC /* SZCNCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCNCenter.m; sourceTree = "<group>"; };
+		A989F4A21FF0FC920085CBAC /* SZTranslator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZTranslator.h; sourceTree = "<group>"; };
+		A989F4A31FF0FC920085CBAC /* SZTranslator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZTranslator.m; sourceTree = "<group>"; };
+		A989F4A61FF11F7F0085CBAC /* SZMementoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMementoViewController.h; sourceTree = "<group>"; };
+		A989F4A71FF11F7F0085CBAC /* SZMementoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMementoViewController.m; sourceTree = "<group>"; };
+		A989F4A91FF122CE0085CBAC /* SZGameRoll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGameRoll.h; sourceTree = "<group>"; };
+		A989F4AA1FF122CE0085CBAC /* SZGameRoll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGameRoll.m; sourceTree = "<group>"; };
+		A989F4AC1FF1236C0085CBAC /* SZRollStateMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRollStateMemento.h; sourceTree = "<group>"; };
+		A989F4AD1FF1236C0085CBAC /* SZRollStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRollStateMemento.m; sourceTree = "<group>"; };
+		A989F4AF1FF123CC0085CBAC /* SZRollStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRollStateCaretaker.h; sourceTree = "<group>"; };
+		A989F4B01FF123CC0085CBAC /* SZRollStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRollStateCaretaker.m; sourceTree = "<group>"; };
+		A989F4B31FF256B00085CBAC /* SZCompositeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCompositeViewController.h; sourceTree = "<group>"; };
+		A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCompositeViewController.m; sourceTree = "<group>"; };
+		A989F4B91FF259360085CBAC /* SZLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZLeaf.h; sourceTree = "<group>"; };
+		A989F4BA1FF259360085CBAC /* SZLeaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZLeaf.m; sourceTree = "<group>"; };
+		A989F4BC1FF259570085CBAC /* SZComponentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZComponentProtocol.h; sourceTree = "<group>"; };
+		A989F4BD1FF25BC50085CBAC /* SZComposite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZComposite.h; sourceTree = "<group>"; };
+		A989F4BE1FF25BC50085CBAC /* SZComposite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZComposite.m; sourceTree = "<group>"; };
+		A989F4C01FF26FD30085CBAC /* SZCompanyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCompanyProtocol.h; sourceTree = "<group>"; };
+		A989F4C11FF2704A0085CBAC /* SZConcreteCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteCompany.h; sourceTree = "<group>"; };
+		A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteCompany.m; sourceTree = "<group>"; };
+		A989F4C41FF2719B0085CBAC /* SZHRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHRDepartment.h; sourceTree = "<group>"; };
+		A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHRDepartment.m; sourceTree = "<group>"; };
+		A989F4C71FF272960085CBAC /* SZFinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFinanceDepartment.h; sourceTree = "<group>"; };
+		A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFinanceDepartment.m; sourceTree = "<group>"; };
+		A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZIteratorViewController.h; sourceTree = "<group>"; };
+		A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZIteratorViewController.m; sourceTree = "<group>"; };
+		A989F4D51FF3CDAA0085CBAC /* SZSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSingletonViewController.h; sourceTree = "<group>"; };
+		A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSingletonViewController.m; sourceTree = "<group>"; };
+		A989F4D81FF3CE350085CBAC /* SZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSingleton.h; sourceTree = "<group>"; };
+		A989F4D91FF3CE350085CBAC /* SZSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSingleton.m; sourceTree = "<group>"; };
+		A989F4DC1FF487810085CBAC /* SZViewBridgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZViewBridgeController.h; sourceTree = "<group>"; };
+		A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZViewBridgeController.m; sourceTree = "<group>"; };
+		A989F4E11FF48CF90085CBAC /* SZImplementorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZImplementorProtocol.h; sourceTree = "<group>"; };
+		A989F4E21FF48DC60085CBAC /* SZConcreteImplementorA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteImplementorA.h; sourceTree = "<group>"; };
+		A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteImplementorA.m; sourceTree = "<group>"; };
+		A989F4E51FF48E0E0085CBAC /* SZConcreteImplementorB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteImplementorB.h; sourceTree = "<group>"; };
+		A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteImplementorB.m; sourceTree = "<group>"; };
+		A989F4E81FF48EFD0085CBAC /* SZAbstractionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAbstractionProtocol.h; sourceTree = "<group>"; };
+		A989F4E91FF4A0DA0085CBAC /* SZRefinedAbstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRefinedAbstraction.h; sourceTree = "<group>"; };
+		A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRefinedAbstraction.m; sourceTree = "<group>"; };
+		A989F4EC1FF4C0260085CBAC /* SZMobileSoftProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileSoftProtocol.h; sourceTree = "<group>"; };
+		A989F4ED1FF4C0520085CBAC /* SZMobileGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileGame.h; sourceTree = "<group>"; };
+		A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileGame.m; sourceTree = "<group>"; };
+		A989F4F01FF4C0BF0085CBAC /* SZMobileAddressList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileAddressList.h; sourceTree = "<group>"; };
+		A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileAddressList.m; sourceTree = "<group>"; };
+		A989F4F41FF4C18C0085CBAC /* SZMobileBrandN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileBrandN.h; sourceTree = "<group>"; };
+		A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileBrandN.m; sourceTree = "<group>"; };
+		A989F4F71FF4C1B20085CBAC /* SZMobileBrandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileBrandProtocol.h; sourceTree = "<group>"; };
+		A989F4F81FF4C2360085CBAC /* SZMoblieBrandM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMoblieBrandM.h; sourceTree = "<group>"; };
+		A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMoblieBrandM.m; sourceTree = "<group>"; };
+		A9BE466C1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZChainOfResponsibilityViewController.h; sourceTree = "<group>"; };
+		A9BE466D1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZChainOfResponsibilityViewController.m; sourceTree = "<group>"; };
+		A9BE466F1FFB9D9900798B25 /* SZHandlerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHandlerProtocol.h; sourceTree = "<group>"; };
+		A9BE46701FFB9E6900798B25 /* SZConcreteHandler1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteHandler1.h; sourceTree = "<group>"; };
+		A9BE46711FFB9E6900798B25 /* SZConcreteHandler1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteHandler1.m; sourceTree = "<group>"; };
+		A9BE46731FFB9F3D00798B25 /* SZConcreteHandler2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteHandler2.h; sourceTree = "<group>"; };
+		A9BE46741FFB9F3D00798B25 /* SZConcreteHandler2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteHandler2.m; sourceTree = "<group>"; };
+		A9BE46761FFB9FBB00798B25 /* SZConcreteHandler3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteHandler3.h; sourceTree = "<group>"; };
+		A9BE46771FFB9FBB00798B25 /* SZConcreteHandler3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteHandler3.m; sourceTree = "<group>"; };
+		A9BE46791FFBA6B200798B25 /* SZManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZManagerProtocol.h; sourceTree = "<group>"; };
+		A9BE467A1FFBA70800798B25 /* SZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRequest.h; sourceTree = "<group>"; };
+		A9BE467B1FFBA70800798B25 /* SZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRequest.m; sourceTree = "<group>"; };
+		A9BE467D1FFBC70500798B25 /* SZCommonManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommonManger.h; sourceTree = "<group>"; };
+		A9BE467E1FFBC70500798B25 /* SZCommonManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommonManger.m; sourceTree = "<group>"; };
+		A9BE46801FFBC8D900798B25 /* SZMajordomo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMajordomo.h; sourceTree = "<group>"; };
+		A9BE46811FFBC8D900798B25 /* SZMajordomo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMajordomo.m; sourceTree = "<group>"; };
+		A9BE46831FFBC95C00798B25 /* SZGeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZGeneralManager.h; sourceTree = "<group>"; };
+		A9BE46841FFBC95C00798B25 /* SZGeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGeneralManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A989F33D1FECFE2F0085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F3551FECFE2F0085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F3601FECFE2F0085CBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A923C2081FFA022C00D5BCFD /* 19.命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */,
+				A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */,
+				A923C20A1FFA022C00D5BCFD /* 命令模式基本代码 */,
+				A923C2091FFA022C00D5BCFD /* 命令模式事例代码 */,
+			);
+			path = "19.命令模式";
+			sourceTree = "<group>";
+		};
+		A923C2091FFA022C00D5BCFD /* 命令模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C21B1FFA07EF00D5BCFD /* SZBakeCommandProtocol.h */,
+				A923C2181FFA077C00D5BCFD /* SZBarbecuer.h */,
+				A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */,
+				A923C21C1FFA086A00D5BCFD /* SZBakeMuttonCommand.h */,
+				A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */,
+				A923C21F1FFA09B400D5BCFD /* SZBakeChickenWingCommand.h */,
+				A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */,
+				A923C2221FFA0AA100D5BCFD /* SZWaiter.h */,
+				A923C2231FFA0AA100D5BCFD /* SZWaiter.m */,
+			);
+			path = "命令模式事例代码";
+			sourceTree = "<group>";
+		};
+		A923C20A1FFA022C00D5BCFD /* 命令模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */,
+				A923C20F1FFA03E400D5BCFD /* SZReceiver.h */,
+				A923C2101FFA03E400D5BCFD /* SZReceiver.m */,
+				A923C2121FFA048E00D5BCFD /* SZConcreteCommand.h */,
+				A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */,
+				A923C2151FFA051C00D5BCFD /* SZInvoker.h */,
+				A923C2161FFA051C00D5BCFD /* SZInvoker.m */,
+			);
+			path = "命令模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F3371FECFE2F0085CBAC = {
+			isa = PBXGroup;
+			children = (
+				A989F3421FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */,
+				A989F35B1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests */,
+				A989F3661FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests */,
+				A989F3411FECFE2F0085CBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A989F3411FECFE2F0085CBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3401FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS.app */,
+				A989F3581FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.xctest */,
+				A989F3631FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A989F3421FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3B51FECFEA60085CBAC /* 1.简单工厂模式 */,
+				A989F3E11FECFEA70085CBAC /* 2.策略模式 */,
+				A989F3761FECFEA60085CBAC /* 3.装饰模式 */,
+				A989F3C31FECFEA60085CBAC /* 4.代理模式 */,
+				A989F3ED1FECFEA70085CBAC /* 5.工厂方法模式 */,
+				A989F3F91FECFEA70085CBAC /* 6.原型模式 */,
+				A989F3D61FECFEA70085CBAC /* 7.模板模式 */,
+				A989F3951FECFEA60085CBAC /* 8.外观模式 */,
+				A989F3A11FECFEA60085CBAC /* 9.建造者模式 */,
+				A989F4021FECFEA70085CBAC /* 10.观察者模式 */,
+				A989F4521FF092020085CBAC /* 11.抽象工厂模式 */,
+				A989F4771FF0D52B0085CBAC /* 12.状态模式 */,
+				A989F4911FF0E8460085CBAC /* 13.适配器模式 */,
+				A989F4A51FF11D810085CBAC /* 14.备忘录模式 */,
+				A989F4B21FF2566C0085CBAC /* 15.组合模式 */,
+				A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */,
+				A989F4D41FF3CD770085CBAC /* 17.单例模式 */,
+				A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */,
+				A923C2081FFA022C00D5BCFD /* 19.命令模式 */,
+				A9BE46691FFB9CE000798B25 /* 20.职责链模式 */,
+				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
+				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
+				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
+				A989F4031FECFEA80085CBAC /* SZDesignPatternListViewController.m */,
+				A989F3431FECFE2F0085CBAC /* AppDelegate.h */,
+				A989F3441FECFE2F0085CBAC /* AppDelegate.m */,
+				A989F34C1FECFE2F0085CBAC /* Assets.xcassets */,
+				A989F34E1FECFE2F0085CBAC /* LaunchScreen.storyboard */,
+				A989F3511FECFE2F0085CBAC /* Info.plist */,
+				A989F3521FECFE2F0085CBAC /* main.m */,
+			);
+			path = SZ_DesignPattern_For_iOS;
+			sourceTree = "<group>";
+		};
+		A989F35B1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A989F35C1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.m */,
+				A989F35E1FECFE2F0085CBAC /* Info.plist */,
+			);
+			path = SZ_DesignPattern_For_iOSTests;
+			sourceTree = "<group>";
+		};
+		A989F3661FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3671FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.m */,
+				A989F3691FECFE2F0085CBAC /* Info.plist */,
+			);
+			path = SZ_DesignPattern_For_iOSUITests;
+			sourceTree = "<group>";
+		};
+		A989F3761FECFEA60085CBAC /* 3.装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3941FECFEA60085CBAC /* SZDecoratorViewController.h */,
+				A989F3771FECFEA60085CBAC /* SZDecoratorViewController.m */,
+				A989F3881FECFEA60085CBAC /* 装饰模式基本代码 */,
+				A989F3781FECFEA60085CBAC /* 装饰模式事例实践代码 */,
+			);
+			path = "3.装饰模式";
+			sourceTree = "<group>";
+		};
+		A989F3781FECFEA60085CBAC /* 装饰模式事例实践代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3791FECFEA60085CBAC /* CoffeeComponent */,
+				A989F37F1FECFEA60085CBAC /* CoffeeDecorator */,
+			);
+			path = "装饰模式事例实践代码";
+			sourceTree = "<group>";
+		};
+		A989F3791FECFEA60085CBAC /* CoffeeComponent */ = {
+			isa = PBXGroup;
+			children = (
+				A989F37B1FECFEA60085CBAC /* SZCoffee.h */,
+				A989F37E1FECFEA60085CBAC /* SZCoffeeBeanA.h */,
+				A989F37C1FECFEA60085CBAC /* SZCoffeeBeanA.m */,
+				A989F37D1FECFEA60085CBAC /* SZCoffeeBeanB.h */,
+				A989F37A1FECFEA60085CBAC /* SZCoffeeBeanB.m */,
+			);
+			path = CoffeeComponent;
+			sourceTree = "<group>";
+		};
+		A989F37F1FECFEA60085CBAC /* CoffeeDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3831FECFEA60085CBAC /* SZMakeCoffee.h */,
+				A989F3871FECFEA60085CBAC /* SZMakeCoffee.m */,
+				A989F3811FECFEA60085CBAC /* SZMakeCoffeeWithSugar.h */,
+				A989F3841FECFEA60085CBAC /* SZMakeCoffeeWithSugar.m */,
+				A989F3801FECFEA60085CBAC /* SZMakeCoffeeWithMilk.h */,
+				A989F3851FECFEA60085CBAC /* SZMakeCoffeeWithMilk.m */,
+				A989F3861FECFEA60085CBAC /* SZMakeCoffeeWithMocha.h */,
+				A989F3821FECFEA60085CBAC /* SZMakeCoffeeWithMocha.m */,
+			);
+			path = CoffeeDecorator;
+			sourceTree = "<group>";
+		};
+		A989F3881FECFEA60085CBAC /* 装饰模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3891FECFEA60085CBAC /* Decorator */,
+				A989F3901FECFEA60085CBAC /* Component */,
+			);
+			path = "装饰模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F3891FECFEA60085CBAC /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				A989F38B1FECFEA60085CBAC /* SZDecorator.h */,
+				A989F38E1FECFEA60085CBAC /* SZDecorator.m */,
+				A989F38C1FECFEA60085CBAC /* SZConcreteDecoratorA.h */,
+				A989F38F1FECFEA60085CBAC /* SZConcreteDecoratorA.m */,
+				A989F38A1FECFEA60085CBAC /* SZConcreteDecoratorB.h */,
+				A989F38D1FECFEA60085CBAC /* SZConcreteDecoratorB.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		A989F3901FECFEA60085CBAC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3921FECFEA60085CBAC /* SZComponent.h */,
+				A989F3931FECFEA60085CBAC /* SZConcreteComponent.h */,
+				A989F3911FECFEA60085CBAC /* SZConcreteComponent.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A989F3951FECFEA60085CBAC /* 8.外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F39A1FECFEA60085CBAC /* SZFacadeViewController.h */,
+				A989F3A01FECFEA60085CBAC /* SZFacadeViewController.m */,
+				A989F3991FECFEA60085CBAC /* SZTradeProtocol.h */,
+				A989F39B1FECFEA60085CBAC /* SZStock.h */,
+				A989F39F1FECFEA60085CBAC /* SZStock.m */,
+				A989F39C1FECFEA60085CBAC /* SZGovernmentBond.h */,
+				A989F3961FECFEA60085CBAC /* SZGovernmentBond.m */,
+				A989F39D1FECFEA60085CBAC /* SZRealEstate.h */,
+				A989F3981FECFEA60085CBAC /* SZRealEstate.m */,
+				A989F39E1FECFEA60085CBAC /* SZFund.h */,
+				A989F3971FECFEA60085CBAC /* SZFund.m */,
+			);
+			path = "8.外观模式";
+			sourceTree = "<group>";
+		};
+		A989F3A11FECFEA60085CBAC /* 9.建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3AB1FECFEA60085CBAC /* SZBuilderViewController.h */,
+				A989F3B41FECFEA60085CBAC /* SZBuilderViewController.m */,
+				A989F3A21FECFEA60085CBAC /* SZBuildPersonProtocol.h */,
+				A989F3B01FECFEA60085CBAC /* SZBuildPerson.h */,
+				A989F3A61FECFEA60085CBAC /* SZBuildPerson.m */,
+				A989F3A41FECFEA60085CBAC /* SZBulidThinPerson.h */,
+				A989F3AC1FECFEA60085CBAC /* SZBulidThinPerson.m */,
+				A989F3B31FECFEA60085CBAC /* SZBuildFatPerson.h */,
+				A989F3A91FECFEA60085CBAC /* SZBuildFatPerson.m */,
+				A989F3AA1FECFEA60085CBAC /* SZBulidHead.h */,
+				A989F3B21FECFEA60085CBAC /* SZBulidHead.m */,
+				A989F3A31FECFEA60085CBAC /* SZBuildBody.h */,
+				A989F3AD1FECFEA60085CBAC /* SZBuildBody.m */,
+				A989F3AF1FECFEA60085CBAC /* SZBuildArm.h */,
+				A989F3A71FECFEA60085CBAC /* SZBuildArm.m */,
+				A989F3A51FECFEA60085CBAC /* SZBuildLeg.h */,
+				A989F3B11FECFEA60085CBAC /* SZBuildLeg.m */,
+				A989F3A81FECFEA60085CBAC /* SZBuildPersonDirector.h */,
+				A989F3AE1FECFEA60085CBAC /* SZBuildPersonDirector.m */,
+			);
+			path = "9.建造者模式";
+			sourceTree = "<group>";
+		};
+		A989F3B51FECFEA60085CBAC /* 1.简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3BB1FECFEA60085CBAC /* SZSimpleFactoryViewController.h */,
+				A989F3C01FECFEA60085CBAC /* SZSimpleFactoryViewController.m */,
+				A989F3B81FECFEA60085CBAC /* SZOperationFactory.h */,
+				A989F3BD1FECFEA60085CBAC /* SZOperationFactory.m */,
+				A989F3BA1FECFEA60085CBAC /* SZOperation.h */,
+				A989F3BE1FECFEA60085CBAC /* SZOpetationAdd.h */,
+				A989F3B71FECFEA60085CBAC /* SZOpetationAdd.m */,
+				A989F3B61FECFEA60085CBAC /* SZOperationDivide.h */,
+				A989F3BF1FECFEA60085CBAC /* SZOperationDivide.m */,
+				A989F3B91FECFEA60085CBAC /* SZOperationMultiply.h */,
+				A989F3C11FECFEA60085CBAC /* SZOperationMultiply.m */,
+				A989F3BC1FECFEA60085CBAC /* SZOperationMinus.h */,
+				A989F3C21FECFEA60085CBAC /* SZOperationMinus.m */,
+			);
+			path = "1.简单工厂模式";
+			sourceTree = "<group>";
+		};
+		A989F3C31FECFEA60085CBAC /* 4.代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3CC1FECFEA60085CBAC /* SZProxyViewController.h */,
+				A989F3D41FECFEA60085CBAC /* SZProxyViewController.m */,
+				A989F3C41FECFEA60085CBAC /* 代理模式基本代码 */,
+				A989F3CD1FECFEA60085CBAC /* 代理模式事例代码 */,
+			);
+			path = "4.代理模式";
+			sourceTree = "<group>";
+		};
+		A989F3C41FECFEA60085CBAC /* 代理模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3CB1FECFEA60085CBAC /* SZGirl.h */,
+				A989F3C71FECFEA60085CBAC /* SZGirl.m */,
+				A989F3C81FECFEA60085CBAC /* SZGiveGift.h */,
+				A989F3C91FECFEA60085CBAC /* SZProxy.h */,
+				A989F3C51FECFEA60085CBAC /* SZProxy.m */,
+				A989F3CA1FECFEA60085CBAC /* SZPursuit.h */,
+				A989F3C61FECFEA60085CBAC /* SZPursuit.m */,
+			);
+			path = "代理模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F3CD1FECFEA60085CBAC /* 代理模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3D21FECFEA60085CBAC /* SZChildren.h */,
+				A989F3CE1FECFEA60085CBAC /* SZChildren.m */,
+				A989F3CF1FECFEA60085CBAC /* SZNurse.h */,
+				A989F3D11FECFEA60085CBAC /* SZNurse.m */,
+				A989F3D31FECFEA60085CBAC /* SZNanny.h */,
+				A989F3D01FECFEA60085CBAC /* SZNanny.m */,
+			);
+			path = "代理模式事例代码";
+			sourceTree = "<group>";
+		};
+		A989F3D61FECFEA70085CBAC /* 7.模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3D91FECFEA70085CBAC /* SZTemplateMethodViewController.h */,
+				A989F3DD1FECFEA70085CBAC /* SZTemplateMethodViewController.m */,
+				A989F3D71FECFEA70085CBAC /* SZAnswerProtocol.h */,
+				A989F3DF1FECFEA70085CBAC /* SZTestPaper.h */,
+				A989F3DB1FECFEA70085CBAC /* SZTestPaper.m */,
+				A989F3DC1FECFEA70085CBAC /* SZTestPaperA.h */,
+				A989F3D81FECFEA70085CBAC /* SZTestPaperA.m */,
+				A989F3DE1FECFEA70085CBAC /* SZTestPaperB.h */,
+				A989F3DA1FECFEA70085CBAC /* SZTestPaperB.m */,
+			);
+			path = "7.模板模式";
+			sourceTree = "<group>";
+		};
+		A989F3E11FECFEA70085CBAC /* 2.策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3E41FECFEA70085CBAC /* SZStrategyViewController.h */,
+				A989F3E91FECFEA70085CBAC /* SZStrategyViewController.m */,
+				A989F3E21FECFEA70085CBAC /* SZCashOperation.h */,
+				A989F3E31FECFEA70085CBAC /* SZCashNormal.h */,
+				A989F3EA1FECFEA70085CBAC /* SZCashNormal.m */,
+				A989F3E51FECFEA70085CBAC /* SZCashRebate.h */,
+				A989F3E81FECFEA70085CBAC /* SZCashRebate.m */,
+				A989F3EB1FECFEA70085CBAC /* SZCashReturn.h */,
+				A989F3E61FECFEA70085CBAC /* SZCashReturn.m */,
+				A989F3E71FECFEA70085CBAC /* SZCashContext.h */,
+				A989F3EC1FECFEA70085CBAC /* SZCashContext.m */,
+			);
+			path = "2.策略模式";
+			sourceTree = "<group>";
+		};
+		A989F3ED1FECFEA70085CBAC /* 5.工厂方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3EE1FECFEA70085CBAC /* SZFactoryMethodViewController.h */,
+				A989F3F51FECFEA70085CBAC /* SZFactoryMethodViewController.m */,
+				A989F3F01FECFEA70085CBAC /* SZOperationFactory.h */,
+				A989F3F41FECFEA70085CBAC /* SZOperationAddFactory.h */,
+				A989F3EF1FECFEA70085CBAC /* SZOperationAddFactory.m */,
+				A989F3F61FECFEA70085CBAC /* SZOperationDivideFactory.h */,
+				A989F3F11FECFEA70085CBAC /* SZOperationDivideFactory.m */,
+				A989F3F71FECFEA70085CBAC /* SZOperationMinusFactory.h */,
+				A989F3F31FECFEA70085CBAC /* SZOperationMinusFactory.m */,
+				A989F3F81FECFEA70085CBAC /* SZOperationMultiplyFactory.h */,
+				A989F3F21FECFEA70085CBAC /* SZOperationMultiplyFactory.m */,
+			);
+			path = "5.工厂方法模式";
+			sourceTree = "<group>";
+		};
+		A989F3F91FECFEA70085CBAC /* 6.原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F3FB1FECFEA70085CBAC /* SZPrototypeViewController.h */,
+				A989F3FF1FECFEA70085CBAC /* SZPrototypeViewController.m */,
+				A989F4001FECFEA70085CBAC /* SZResume.h */,
+				A989F3FA1FECFEA70085CBAC /* SZResume.m */,
+				A989F3FD1FECFEA70085CBAC /* SZSubResume.h */,
+				A989F4011FECFEA70085CBAC /* SZSubResume.m */,
+				A989F3FE1FECFEA70085CBAC /* SZWorkExperience.h */,
+				A989F3FC1FECFEA70085CBAC /* SZWorkExperience.m */,
+			);
+			path = "6.原型模式";
+			sourceTree = "<group>";
+		};
+		A989F4021FECFEA70085CBAC /* 10.观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F43E1FEE596B0085CBAC /* SZObserveViewController.h */,
+				A989F43F1FEE596B0085CBAC /* SZObserveViewController.m */,
+				A989F4471FEE611F0085CBAC /* SZObserve.h */,
+				A989F4411FEE5BB30085CBAC /* SZStockObserver.h */,
+				A989F4421FEE5BB30085CBAC /* SZStockObserver.m */,
+				A989F4481FEE61C50085CBAC /* SZNBAObserve.h */,
+				A989F4491FEE61C50085CBAC /* SZNBAObserve.m */,
+				A989F44E1FEE668C0085CBAC /* SZSubject.h */,
+				A989F4441FEE5BDC0085CBAC /* SZSecretary.h */,
+				A989F4451FEE5BDC0085CBAC /* SZSecretary.m */,
+				A989F44F1FEE67F40085CBAC /* SZBoss.h */,
+				A989F4501FEE67F40085CBAC /* SZBoss.m */,
+			);
+			path = "10.观察者模式";
+			sourceTree = "<group>";
+		};
+		A989F4521FF092020085CBAC /* 11.抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4531FF09A2D0085CBAC /* SZAbstractFactoryViewController.h */,
+				A989F4541FF09A2D0085CBAC /* SZAbstractFactoryViewController.m */,
+				A989F4561FF09B530085CBAC /* 抽象工厂模式基本代码 */,
+				A989F4571FF09B530085CBAC /* 简单工厂改进抽象工厂 */,
+			);
+			path = "11.抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		A989F4561FF09B530085CBAC /* 抽象工厂模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4581FF0A0320085CBAC /* SZUser.h */,
+				A989F4591FF0A0320085CBAC /* SZUser.m */,
+				A989F4631FF0A3700085CBAC /* SZUserProtocol.h */,
+				A989F45B1FF0A0800085CBAC /* SZSqlserveUser.h */,
+				A989F45C1FF0A0800085CBAC /* SZSqlserveUser.m */,
+				A989F45F1FF0A2C60085CBAC /* SZAccessUser.h */,
+				A989F4601FF0A2C60085CBAC /* SZAccessUser.m */,
+				A989F46A1FF0A7140085CBAC /* SZDepartment.h */,
+				A989F46B1FF0A7150085CBAC /* SZDepartment.m */,
+				A989F46D1FF0A75A0085CBAC /* SZDepartmentProtocol.h */,
+				A989F46E1FF0A7B30085CBAC /* SZSqlserveDepartment.h */,
+				A989F46F1FF0A7B30085CBAC /* SZSqlserveDepartment.m */,
+				A989F4711FF0A7E10085CBAC /* SZAccessDepartment.h */,
+				A989F4721FF0A7E10085CBAC /* SZAccessDepartment.m */,
+				A989F4621FF0A34D0085CBAC /* SZFactoryProtocol.h */,
+				A989F4641FF0A41A0085CBAC /* SZSqlserveFactory.h */,
+				A989F4651FF0A41B0085CBAC /* SZSqlserveFactory.m */,
+				A989F4671FF0A42A0085CBAC /* SZAccessFactory.h */,
+				A989F4681FF0A42A0085CBAC /* SZAccessFactory.m */,
+			);
+			path = "抽象工厂模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F4571FF09B530085CBAC /* 简单工厂改进抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4741FF0ABBC0085CBAC /* SZDataAccess.h */,
+				A989F4751FF0ABBC0085CBAC /* SZDataAccess.m */,
+			);
+			path = "简单工厂改进抽象工厂";
+			sourceTree = "<group>";
+		};
+		A989F4771FF0D52B0085CBAC /* 12.状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4781FF0D5ED0085CBAC /* SZStateViewController.h */,
+				A989F4791FF0D5ED0085CBAC /* SZStateViewController.m */,
+				A989F47B1FF0D87F0085CBAC /* SZStateProtocol.h */,
+				A989F47F1FF0DE1C0085CBAC /* SZForenoonState.h */,
+				A989F4801FF0DE1C0085CBAC /* SZForenoonState.m */,
+				A989F4821FF0DEA50085CBAC /* SZNoonState.h */,
+				A989F4831FF0DEA50085CBAC /* SZNoonState.m */,
+				A989F4851FF0DECD0085CBAC /* SZAfternoonState.h */,
+				A989F4861FF0DECD0085CBAC /* SZAfternoonState.m */,
+				A989F4881FF0DEEE0085CBAC /* SZEveningState.h */,
+				A989F4891FF0DEEE0085CBAC /* SZEveningState.m */,
+				A989F48B1FF0DF070085CBAC /* SZSleepingState.h */,
+				A989F48C1FF0DF070085CBAC /* SZSleepingState.m */,
+				A989F48E1FF0E0D10085CBAC /* SZRestState.h */,
+				A989F48F1FF0E0D10085CBAC /* SZRestState.m */,
+				A989F47C1FF0D8FA0085CBAC /* SZWork.h */,
+				A989F47D1FF0D8FA0085CBAC /* SZWork.m */,
+			);
+			path = "12.状态模式";
+			sourceTree = "<group>";
+		};
+		A989F4911FF0E8460085CBAC /* 13.适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4921FF0F4C90085CBAC /* SZAdapterViewController.h */,
+				A989F4931FF0F4C90085CBAC /* SZAdapterViewController.m */,
+				A989F4951FF0F5B90085CBAC /* SZPlayerProtocol.h */,
+				A989F4961FF0F6C30085CBAC /* SZForwards.h */,
+				A989F4971FF0F6C30085CBAC /* SZForwards.m */,
+				A989F4991FF0FAE90085CBAC /* SZCenter.h */,
+				A989F49A1FF0FAE90085CBAC /* SZCenter.m */,
+				A989F49C1FF0FB320085CBAC /* SZGuards.h */,
+				A989F49D1FF0FB320085CBAC /* SZGuards.m */,
+				A989F49F1FF0FB990085CBAC /* SZCNCenter.h */,
+				A989F4A01FF0FB990085CBAC /* SZCNCenter.m */,
+				A989F4A21FF0FC920085CBAC /* SZTranslator.h */,
+				A989F4A31FF0FC920085CBAC /* SZTranslator.m */,
+			);
+			path = "13.适配器模式";
+			sourceTree = "<group>";
+		};
+		A989F4A51FF11D810085CBAC /* 14.备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4A61FF11F7F0085CBAC /* SZMementoViewController.h */,
+				A989F4A71FF11F7F0085CBAC /* SZMementoViewController.m */,
+				A989F4A91FF122CE0085CBAC /* SZGameRoll.h */,
+				A989F4AA1FF122CE0085CBAC /* SZGameRoll.m */,
+				A989F4AC1FF1236C0085CBAC /* SZRollStateMemento.h */,
+				A989F4AD1FF1236C0085CBAC /* SZRollStateMemento.m */,
+				A989F4AF1FF123CC0085CBAC /* SZRollStateCaretaker.h */,
+				A989F4B01FF123CC0085CBAC /* SZRollStateCaretaker.m */,
+			);
+			path = "14.备忘录模式";
+			sourceTree = "<group>";
+		};
+		A989F4B21FF2566C0085CBAC /* 15.组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4B31FF256B00085CBAC /* SZCompositeViewController.h */,
+				A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */,
+				A989F4B71FF257290085CBAC /* 组合模式基本代码 */,
+				A989F4B61FF257290085CBAC /* 组合模式事例代码 */,
+			);
+			path = "15.组合模式";
+			sourceTree = "<group>";
+		};
+		A989F4B61FF257290085CBAC /* 组合模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4C01FF26FD30085CBAC /* SZCompanyProtocol.h */,
+				A989F4C11FF2704A0085CBAC /* SZConcreteCompany.h */,
+				A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */,
+				A989F4C41FF2719B0085CBAC /* SZHRDepartment.h */,
+				A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */,
+				A989F4C71FF272960085CBAC /* SZFinanceDepartment.h */,
+				A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */,
+			);
+			path = "组合模式事例代码";
+			sourceTree = "<group>";
+		};
+		A989F4B71FF257290085CBAC /* 组合模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4BC1FF259570085CBAC /* SZComponentProtocol.h */,
+				A989F4B91FF259360085CBAC /* SZLeaf.h */,
+				A989F4BA1FF259360085CBAC /* SZLeaf.m */,
+				A989F4BD1FF25BC50085CBAC /* SZComposite.h */,
+				A989F4BE1FF25BC50085CBAC /* SZComposite.m */,
+			);
+			path = "组合模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */,
+				A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */,
+			);
+			path = "16.迭代器模式";
+			sourceTree = "<group>";
+		};
+		A989F4D41FF3CD770085CBAC /* 17.单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4D51FF3CDAA0085CBAC /* SZSingletonViewController.h */,
+				A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */,
+				A989F4D81FF3CE350085CBAC /* SZSingleton.h */,
+				A989F4D91FF3CE350085CBAC /* SZSingleton.m */,
+			);
+			path = "17.单例模式";
+			sourceTree = "<group>";
+		};
+		A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4DC1FF487810085CBAC /* SZViewBridgeController.h */,
+				A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */,
+				A989F4DF1FF48B370085CBAC /* 桥接模式基本代码 */,
+				A989F4E01FF48B380085CBAC /* 桥接模式事例代码 */,
+			);
+			path = "18.桥接模式";
+			sourceTree = "<group>";
+		};
+		A989F4DF1FF48B370085CBAC /* 桥接模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4E11FF48CF90085CBAC /* SZImplementorProtocol.h */,
+				A989F4E21FF48DC60085CBAC /* SZConcreteImplementorA.h */,
+				A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */,
+				A989F4E51FF48E0E0085CBAC /* SZConcreteImplementorB.h */,
+				A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */,
+				A989F4E81FF48EFD0085CBAC /* SZAbstractionProtocol.h */,
+				A989F4E91FF4A0DA0085CBAC /* SZRefinedAbstraction.h */,
+				A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */,
+			);
+			path = "桥接模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F4E01FF48B380085CBAC /* 桥接模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4EC1FF4C0260085CBAC /* SZMobileSoftProtocol.h */,
+				A989F4ED1FF4C0520085CBAC /* SZMobileGame.h */,
+				A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */,
+				A989F4F01FF4C0BF0085CBAC /* SZMobileAddressList.h */,
+				A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */,
+				A989F4F71FF4C1B20085CBAC /* SZMobileBrandProtocol.h */,
+				A989F4F41FF4C18C0085CBAC /* SZMobileBrandN.h */,
+				A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */,
+				A989F4F81FF4C2360085CBAC /* SZMoblieBrandM.h */,
+				A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */,
+			);
+			path = "桥接模式事例代码";
+			sourceTree = "<group>";
+		};
+		A9BE46691FFB9CE000798B25 /* 20.职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A9BE466C1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.h */,
+				A9BE466D1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m */,
+				A9BE466A1FFB9CE000798B25 /* 职责链模式基本代码 */,
+				A9BE466B1FFB9CE000798B25 /* 职责链模式事例代码 */,
+			);
+			path = "20.职责链模式";
+			sourceTree = "<group>";
+		};
+		A9BE466A1FFB9CE000798B25 /* 职责链模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A9BE466F1FFB9D9900798B25 /* SZHandlerProtocol.h */,
+				A9BE46701FFB9E6900798B25 /* SZConcreteHandler1.h */,
+				A9BE46711FFB9E6900798B25 /* SZConcreteHandler1.m */,
+				A9BE46731FFB9F3D00798B25 /* SZConcreteHandler2.h */,
+				A9BE46741FFB9F3D00798B25 /* SZConcreteHandler2.m */,
+				A9BE46761FFB9FBB00798B25 /* SZConcreteHandler3.h */,
+				A9BE46771FFB9FBB00798B25 /* SZConcreteHandler3.m */,
+			);
+			path = "职责链模式基本代码";
+			sourceTree = "<group>";
+		};
+		A9BE466B1FFB9CE000798B25 /* 职责链模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A9BE46791FFBA6B200798B25 /* SZManagerProtocol.h */,
+				A9BE467A1FFBA70800798B25 /* SZRequest.h */,
+				A9BE467B1FFBA70800798B25 /* SZRequest.m */,
+				A9BE467D1FFBC70500798B25 /* SZCommonManger.h */,
+				A9BE467E1FFBC70500798B25 /* SZCommonManger.m */,
+				A9BE46801FFBC8D900798B25 /* SZMajordomo.h */,
+				A9BE46811FFBC8D900798B25 /* SZMajordomo.m */,
+				A9BE46831FFBC95C00798B25 /* SZGeneralManager.h */,
+				A9BE46841FFBC95C00798B25 /* SZGeneralManager.m */,
+			);
+			path = "职责链模式事例代码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A989F33F1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F36C1FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOS" */;
+			buildPhases = (
+				A989F33C1FECFE2F0085CBAC /* Sources */,
+				A989F33D1FECFE2F0085CBAC /* Frameworks */,
+				A989F33E1FECFE2F0085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZ_DesignPattern_For_iOS;
+			productName = SZ_DesignPattern_For_iOS;
+			productReference = A989F3401FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A989F3571FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F36F1FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOSTests" */;
+			buildPhases = (
+				A989F3541FECFE2F0085CBAC /* Sources */,
+				A989F3551FECFE2F0085CBAC /* Frameworks */,
+				A989F3561FECFE2F0085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A989F35A1FECFE2F0085CBAC /* PBXTargetDependency */,
+			);
+			name = SZ_DesignPattern_For_iOSTests;
+			productName = SZ_DesignPattern_For_iOSTests;
+			productReference = A989F3581FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A989F3621FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A989F3721FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOSUITests" */;
+			buildPhases = (
+				A989F35F1FECFE2F0085CBAC /* Sources */,
+				A989F3601FECFE2F0085CBAC /* Frameworks */,
+				A989F3611FECFE2F0085CBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A989F3651FECFE2F0085CBAC /* PBXTargetDependency */,
+			);
+			name = SZ_DesignPattern_For_iOSUITests;
+			productName = SZ_DesignPattern_For_iOSUITests;
+			productReference = A989F3631FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A989F3381FECFE2F0085CBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SZ;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yanl;
+				TargetAttributes = {
+					A989F33F1FECFE2F0085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A989F3571FECFE2F0085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A989F33F1FECFE2F0085CBAC;
+					};
+					A989F3621FECFE2F0085CBAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A989F33F1FECFE2F0085CBAC;
+					};
+				};
+			};
+			buildConfigurationList = A989F33B1FECFE2F0085CBAC /* Build configuration list for PBXProject "SZ_DesignPattern_For_iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A989F3371FECFE2F0085CBAC;
+			productRefGroup = A989F3411FECFE2F0085CBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A989F33F1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */,
+				A989F3571FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests */,
+				A989F3621FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A989F33E1FECFE2F0085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F3501FECFE2F0085CBAC /* LaunchScreen.storyboard in Resources */,
+				A989F34D1FECFE2F0085CBAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F3561FECFE2F0085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F3611FECFE2F0085CBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A989F33C1FECFE2F0085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F43B1FECFEA80085CBAC /* SZPrototypeViewController.m in Sources */,
+				A989F4431FEE5BB30085CBAC /* SZStockObserver.m in Sources */,
+				A989F4281FECFEA80085CBAC /* SZNurse.m in Sources */,
+				A989F4AE1FF1236C0085CBAC /* SZRollStateMemento.m in Sources */,
+				A989F4201FECFEA80085CBAC /* SZSimpleFactoryViewController.m in Sources */,
+				A989F4111FECFEA80085CBAC /* SZRealEstate.m in Sources */,
+				A989F4321FECFEA80085CBAC /* SZCashNormal.m in Sources */,
+				A9BE467F1FFBC70500798B25 /* SZCommonManger.m in Sources */,
+				A989F4461FEE5BDC0085CBAC /* SZSecretary.m in Sources */,
+				A989F4E41FF48DC60085CBAC /* SZConcreteImplementorA.m in Sources */,
+				A9BE46751FFB9F3D00798B25 /* SZConcreteHandler2.m in Sources */,
+				A9BE467C1FFBA70800798B25 /* SZRequest.m in Sources */,
+				A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */,
+				A989F4251FECFEA80085CBAC /* SZGirl.m in Sources */,
+				A989F42E1FECFEA80085CBAC /* SZDesignPatternBaseViewController.m in Sources */,
+				A989F48D1FF0DF070085CBAC /* SZSleepingState.m in Sources */,
+				A989F41C1FECFEA80085CBAC /* SZBuilderViewController.m in Sources */,
+				A989F4041FECFEA80085CBAC /* SZDecoratorViewController.m in Sources */,
+				A989F4511FEE67F40085CBAC /* SZBoss.m in Sources */,
+				A989F4141FECFEA80085CBAC /* SZBuildPerson.m in Sources */,
+				A989F40D1FECFEA80085CBAC /* SZConcreteDecoratorA.m in Sources */,
+				A989F4181FECFEA80085CBAC /* SZBuildBody.m in Sources */,
+				A989F4151FECFEA80085CBAC /* SZBuildArm.m in Sources */,
+				A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */,
+				A989F4F21FF4C0BF0085CBAC /* SZMobileAddressList.m in Sources */,
+				A989F47E1FF0D8FA0085CBAC /* SZWork.m in Sources */,
+				A923C2211FFA09B400D5BCFD /* SZBakeChickenWingCommand.m in Sources */,
+				A989F4551FF09A2D0085CBAC /* SZAbstractFactoryViewController.m in Sources */,
+				A989F42F1FECFEA80085CBAC /* SZCashReturn.m in Sources */,
+				A989F41F1FECFEA80085CBAC /* SZOperationDivide.m in Sources */,
+				A989F40C1FECFEA80085CBAC /* SZDecorator.m in Sources */,
+				A989F4331FECFEA80085CBAC /* SZCashContext.m in Sources */,
+				A989F42D1FECFEA80085CBAC /* SZTemplateMethodViewController.m in Sources */,
+				A923C2241FFA0AA100D5BCFD /* SZWaiter.m in Sources */,
+				A989F41B1FECFEA80085CBAC /* SZBulidHead.m in Sources */,
+				A989F4071FECFEA80085CBAC /* SZMakeCoffeeWithMocha.m in Sources */,
+				A989F40E1FECFEA80085CBAC /* SZConcreteComponent.m in Sources */,
+				A989F4081FECFEA80085CBAC /* SZMakeCoffeeWithSugar.m in Sources */,
+				A989F42B1FECFEA80085CBAC /* SZTestPaperB.m in Sources */,
+				A989F4C31FF2704A0085CBAC /* SZConcreteCompany.m in Sources */,
+				A989F4291FECFEA80085CBAC /* SZProxyViewController.m in Sources */,
+				A989F4761FF0ABBC0085CBAC /* SZDataAccess.m in Sources */,
+				A989F4211FECFEA80085CBAC /* SZOperationMultiply.m in Sources */,
+				A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */,
+				A989F41D1FECFEA80085CBAC /* SZOpetationAdd.m in Sources */,
+				A989F4171FECFEA80085CBAC /* SZBulidThinPerson.m in Sources */,
+				A989F42C1FECFEA80085CBAC /* SZTestPaper.m in Sources */,
+				A989F4161FECFEA80085CBAC /* SZBuildFatPerson.m in Sources */,
+				A989F4361FECFEA80085CBAC /* SZOperationMultiplyFactory.m in Sources */,
+				A989F4131FECFEA80085CBAC /* SZFacadeViewController.m in Sources */,
+				A989F4101FECFEA80085CBAC /* SZFund.m in Sources */,
+				A989F4BF1FF25BC50085CBAC /* SZComposite.m in Sources */,
+				A989F4241FECFEA80085CBAC /* SZPursuit.m in Sources */,
+				A989F4401FEE596B0085CBAC /* SZObserveViewController.m in Sources */,
+				A989F4941FF0F4C90085CBAC /* SZAdapterViewController.m in Sources */,
+				A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */,
+				A989F3531FECFE2F0085CBAC /* main.m in Sources */,
+				A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */,
+				A989F43A1FECFEA80085CBAC /* SZWorkExperience.m in Sources */,
+				A989F4E71FF48E0E0085CBAC /* SZConcreteImplementorB.m in Sources */,
+				A989F4301FECFEA80085CBAC /* SZCashRebate.m in Sources */,
+				A989F4D71FF3CDAA0085CBAC /* SZSingletonViewController.m in Sources */,
+				A989F4371FECFEA80085CBAC /* SZOperationMinusFactory.m in Sources */,
+				A989F42A1FECFEA80085CBAC /* SZTestPaperA.m in Sources */,
+				A989F4FA1FF4C2360085CBAC /* SZMoblieBrandM.m in Sources */,
+				A989F4A81FF11F7F0085CBAC /* SZMementoViewController.m in Sources */,
+				A989F40B1FECFEA80085CBAC /* SZConcreteDecoratorB.m in Sources */,
+				A989F4341FECFEA80085CBAC /* SZOperationAddFactory.m in Sources */,
+				A989F4061FECFEA80085CBAC /* SZCoffeeBeanA.m in Sources */,
+				A989F4121FECFEA80085CBAC /* SZStock.m in Sources */,
+				A989F4981FF0F6C30085CBAC /* SZForwards.m in Sources */,
+				A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */,
+				A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */,
+				A9BE46721FFB9E6900798B25 /* SZConcreteHandler1.m in Sources */,
+				A989F4191FECFEA80085CBAC /* SZBuildPersonDirector.m in Sources */,
+				A923C2171FFA051C00D5BCFD /* SZInvoker.m in Sources */,
+				A989F4731FF0A7E10085CBAC /* SZAccessDepartment.m in Sources */,
+				A989F4311FECFEA80085CBAC /* SZStrategyViewController.m in Sources */,
+				A989F41E1FECFEA80085CBAC /* SZOperationFactory.m in Sources */,
+				A989F4AB1FF122CE0085CBAC /* SZGameRoll.m in Sources */,
+				A989F4381FECFEA80085CBAC /* SZFactoryMethodViewController.m in Sources */,
+				A989F4611FF0A2C60085CBAC /* SZAccessUser.m in Sources */,
+				A989F4871FF0DECD0085CBAC /* SZAfternoonState.m in Sources */,
+				A989F48A1FF0DEEE0085CBAC /* SZEveningState.m in Sources */,
+				A989F43D1FECFEA80085CBAC /* SZDesignPatternListViewController.m in Sources */,
+				A989F4221FECFEA80085CBAC /* SZOperationMinus.m in Sources */,
+				A989F4091FECFEA80085CBAC /* SZMakeCoffeeWithMilk.m in Sources */,
+				A989F4261FECFEA80085CBAC /* SZChildren.m in Sources */,
+				A989F4351FECFEA80085CBAC /* SZOperationDivideFactory.m in Sources */,
+				A989F4811FF0DE1C0085CBAC /* SZForenoonState.m in Sources */,
+				A989F4BB1FF259360085CBAC /* SZLeaf.m in Sources */,
+				A9BE46851FFBC95C00798B25 /* SZGeneralManager.m in Sources */,
+				A989F4B11FF123CC0085CBAC /* SZRollStateCaretaker.m in Sources */,
+				A989F45D1FF0A0800085CBAC /* SZSqlserveUser.m in Sources */,
+				A989F46C1FF0A7150085CBAC /* SZDepartment.m in Sources */,
+				A989F4DA1FF3CE350085CBAC /* SZSingleton.m in Sources */,
+				A989F4271FECFEA80085CBAC /* SZNanny.m in Sources */,
+				A989F3451FECFE2F0085CBAC /* AppDelegate.m in Sources */,
+				A9BE46821FFBC8D900798B25 /* SZMajordomo.m in Sources */,
+				A989F47A1FF0D5ED0085CBAC /* SZStateViewController.m in Sources */,
+				A9BE46781FFB9FBB00798B25 /* SZConcreteHandler3.m in Sources */,
+				A989F49E1FF0FB320085CBAC /* SZGuards.m in Sources */,
+				A989F4EB1FF4A0DA0085CBAC /* SZRefinedAbstraction.m in Sources */,
+				A989F49B1FF0FAE90085CBAC /* SZCenter.m in Sources */,
+				A989F40A1FECFEA80085CBAC /* SZMakeCoffee.m in Sources */,
+				A989F4691FF0A42A0085CBAC /* SZAccessFactory.m in Sources */,
+				A989F4841FF0DEA50085CBAC /* SZNoonState.m in Sources */,
+				A989F4391FECFEA80085CBAC /* SZResume.m in Sources */,
+				A989F45A1FF0A0320085CBAC /* SZUser.m in Sources */,
+				A989F40F1FECFEA80085CBAC /* SZGovernmentBond.m in Sources */,
+				A989F4661FF0A41B0085CBAC /* SZSqlserveFactory.m in Sources */,
+				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
+				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
+				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
+				A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */,
+				A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */,
+				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
+				A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */,
+				A9BE466E1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m in Sources */,
+				A989F4901FF0E0D10085CBAC /* SZRestState.m in Sources */,
+				A989F4701FF0A7B30085CBAC /* SZSqlserveDepartment.m in Sources */,
+				A989F4A41FF0FC920085CBAC /* SZTranslator.m in Sources */,
+				A989F4A11FF0FB990085CBAC /* SZCNCenter.m in Sources */,
+				A989F43C1FECFEA80085CBAC /* SZSubResume.m in Sources */,
+				A923C21E1FFA086A00D5BCFD /* SZBakeMuttonCommand.m in Sources */,
+				A989F4B51FF256B00085CBAC /* SZCompositeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F3541FECFE2F0085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F35D1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A989F35F1FECFE2F0085CBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A989F3681FECFE2F0085CBAC /* SZ_DesignPattern_For_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A989F35A1FECFE2F0085CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A989F33F1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */;
+			targetProxy = A989F3591FECFE2F0085CBAC /* PBXContainerItemProxy */;
+		};
+		A989F3651FECFE2F0085CBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A989F33F1FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS */;
+			targetProxy = A989F3641FECFE2F0085CBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A989F34E1FECFE2F0085CBAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A989F34F1FECFE2F0085CBAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A989F36A1FECFE2F0085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A989F36B1FECFE2F0085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A989F36D1FECFE2F0085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A989F36E1FECFE2F0085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A989F3701FECFE2F0085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_DesignPattern_For_iOS.app/SZ_DesignPattern_For_iOS";
+			};
+			name = Debug;
+		};
+		A989F3711FECFE2F0085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZ_DesignPattern_For_iOS.app/SZ_DesignPattern_For_iOS";
+			};
+			name = Release;
+		};
+		A989F3731FECFE2F0085CBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_DesignPattern_For_iOS;
+			};
+			name = Debug;
+		};
+		A989F3741FECFE2F0085CBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SZ_DesignPattern_For_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.langyan.hbfs.SZ-DesignPattern-For-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZ_DesignPattern_For_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A989F33B1FECFE2F0085CBAC /* Build configuration list for PBXProject "SZ_DesignPattern_For_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F36A1FECFE2F0085CBAC /* Debug */,
+				A989F36B1FECFE2F0085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F36C1FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F36D1FECFE2F0085CBAC /* Debug */,
+				A989F36E1FECFE2F0085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F36F1FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F3701FECFE2F0085CBAC /* Debug */,
+				A989F3711FECFE2F0085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A989F3721FECFE2F0085CBAC /* Build configuration list for PBXNativeTarget "SZ_DesignPattern_For_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A989F3731FECFE2F0085CBAC /* Debug */,
+				A989F3741FECFE2F0085CBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A989F3381FECFE2F0085CBAC /* Project object */;
+}
