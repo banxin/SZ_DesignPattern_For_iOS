@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A921D1D51FFDCA4500380623 /* SZConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1CB1FFDCA4400380623 /* SZConcreteMediator.m */; };
+		A921D1D61FFDCA4500380623 /* SZConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1CC1FFDCA4400380623 /* SZConcreteColleague1.m */; };
+		A921D1D71FFDCA4500380623 /* SZConcreteColleague2.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1CE1FFDCA4400380623 /* SZConcreteColleague2.m */; };
+		A921D1D81FFDCA4500380623 /* SZMediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1D41FFDCA4400380623 /* SZMediatorViewController.m */; };
+		A921D1DD1FFDD10A00380623 /* SZUSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1DC1FFDD10A00380623 /* SZUSA.m */; };
+		A921D1E01FFDD18A00380623 /* SZIraq.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1DF1FFDD18A00380623 /* SZIraq.m */; };
+		A921D1E31FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1E21FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m */; };
 		A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */; };
 		A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2101FFA03E400D5BCFD /* SZReceiver.m */; };
 		A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */; };
@@ -157,6 +164,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A921D1CA1FFDCA4400380623 /* SZColleagueProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZColleagueProtocol.h; sourceTree = "<group>"; };
+		A921D1CB1FFDCA4400380623 /* SZConcreteMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteMediator.m; sourceTree = "<group>"; };
+		A921D1CC1FFDCA4400380623 /* SZConcreteColleague1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteColleague1.m; sourceTree = "<group>"; };
+		A921D1CD1FFDCA4400380623 /* SZMediatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMediatorProtocol.h; sourceTree = "<group>"; };
+		A921D1CE1FFDCA4400380623 /* SZConcreteColleague2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZConcreteColleague2.m; sourceTree = "<group>"; };
+		A921D1CF1FFDCA4400380623 /* SZConcreteColleague1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteColleague1.h; sourceTree = "<group>"; };
+		A921D1D01FFDCA4400380623 /* SZConcreteMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteMediator.h; sourceTree = "<group>"; };
+		A921D1D11FFDCA4400380623 /* SZConcreteColleague2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZConcreteColleague2.h; sourceTree = "<group>"; };
+		A921D1D21FFDCA4400380623 /* SZMediatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMediatorViewController.h; sourceTree = "<group>"; };
+		A921D1D41FFDCA4400380623 /* SZMediatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMediatorViewController.m; sourceTree = "<group>"; };
+		A921D1D91FFDCB9600380623 /* SZUniteNationsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUniteNationsProtocol.h; sourceTree = "<group>"; };
+		A921D1DA1FFDCBCF00380623 /* SZCountryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCountryProtocol.h; sourceTree = "<group>"; };
+		A921D1DB1FFDD10A00380623 /* SZUSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUSA.h; sourceTree = "<group>"; };
+		A921D1DC1FFDD10A00380623 /* SZUSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUSA.m; sourceTree = "<group>"; };
+		A921D1DE1FFDD18A00380623 /* SZIraq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZIraq.h; sourceTree = "<group>"; };
+		A921D1DF1FFDD18A00380623 /* SZIraq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZIraq.m; sourceTree = "<group>"; };
+		A921D1E11FFDD1E400380623 /* SZUniteNationsSecurityCouncil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUniteNationsSecurityCouncil.h; sourceTree = "<group>"; };
+		A921D1E21FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUniteNationsSecurityCouncil.m; sourceTree = "<group>"; };
 		A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandViewController.h; sourceTree = "<group>"; };
 		A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommandViewController.m; sourceTree = "<group>"; };
 		A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandProtocol.h; sourceTree = "<group>"; };
@@ -471,6 +496,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A921D1C81FFDCA4400380623 /* 21.中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1D21FFDCA4400380623 /* SZMediatorViewController.h */,
+				A921D1D41FFDCA4400380623 /* SZMediatorViewController.m */,
+				A921D1C91FFDCA4400380623 /* 中介者模式基本代码 */,
+				A921D1D31FFDCA4400380623 /* 中介者模式事例代码 */,
+			);
+			path = "21.中介者模式";
+			sourceTree = "<group>";
+		};
+		A921D1C91FFDCA4400380623 /* 中介者模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1CD1FFDCA4400380623 /* SZMediatorProtocol.h */,
+				A921D1D01FFDCA4400380623 /* SZConcreteMediator.h */,
+				A921D1CB1FFDCA4400380623 /* SZConcreteMediator.m */,
+				A921D1CA1FFDCA4400380623 /* SZColleagueProtocol.h */,
+				A921D1CF1FFDCA4400380623 /* SZConcreteColleague1.h */,
+				A921D1CC1FFDCA4400380623 /* SZConcreteColleague1.m */,
+				A921D1D11FFDCA4400380623 /* SZConcreteColleague2.h */,
+				A921D1CE1FFDCA4400380623 /* SZConcreteColleague2.m */,
+			);
+			path = "中介者模式基本代码";
+			sourceTree = "<group>";
+		};
+		A921D1D31FFDCA4400380623 /* 中介者模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1D91FFDCB9600380623 /* SZUniteNationsProtocol.h */,
+				A921D1E11FFDD1E400380623 /* SZUniteNationsSecurityCouncil.h */,
+				A921D1E21FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m */,
+				A921D1DA1FFDCBCF00380623 /* SZCountryProtocol.h */,
+				A921D1DB1FFDD10A00380623 /* SZUSA.h */,
+				A921D1DC1FFDD10A00380623 /* SZUSA.m */,
+				A921D1DE1FFDD18A00380623 /* SZIraq.h */,
+				A921D1DF1FFDD18A00380623 /* SZIraq.m */,
+			);
+			path = "中介者模式事例代码";
+			sourceTree = "<group>";
+		};
 		A923C2081FFA022C00D5BCFD /* 19.命令模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,6 +621,7 @@
 				A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */,
 				A923C2081FFA022C00D5BCFD /* 19.命令模式 */,
 				A9BE46691FFB9CE000798B25 /* 20.职责链模式 */,
+				A921D1C81FFDCA4400380623 /* 21.中介者模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -1283,6 +1350,7 @@
 				A989F4161FECFEA80085CBAC /* SZBuildFatPerson.m in Sources */,
 				A989F4361FECFEA80085CBAC /* SZOperationMultiplyFactory.m in Sources */,
 				A989F4131FECFEA80085CBAC /* SZFacadeViewController.m in Sources */,
+				A921D1D51FFDCA4500380623 /* SZConcreteMediator.m in Sources */,
 				A989F4101FECFEA80085CBAC /* SZFund.m in Sources */,
 				A989F4BF1FF25BC50085CBAC /* SZComposite.m in Sources */,
 				A989F4241FECFEA80085CBAC /* SZPursuit.m in Sources */,
@@ -1301,9 +1369,11 @@
 				A989F4A81FF11F7F0085CBAC /* SZMementoViewController.m in Sources */,
 				A989F40B1FECFEA80085CBAC /* SZConcreteDecoratorB.m in Sources */,
 				A989F4341FECFEA80085CBAC /* SZOperationAddFactory.m in Sources */,
+				A921D1D81FFDCA4500380623 /* SZMediatorViewController.m in Sources */,
 				A989F4061FECFEA80085CBAC /* SZCoffeeBeanA.m in Sources */,
 				A989F4121FECFEA80085CBAC /* SZStock.m in Sources */,
 				A989F4981FF0F6C30085CBAC /* SZForwards.m in Sources */,
+				A921D1E31FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m in Sources */,
 				A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */,
 				A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */,
 				A9BE46721FFB9E6900798B25 /* SZConcreteHandler1.m in Sources */,
@@ -1330,11 +1400,13 @@
 				A989F46C1FF0A7150085CBAC /* SZDepartment.m in Sources */,
 				A989F4DA1FF3CE350085CBAC /* SZSingleton.m in Sources */,
 				A989F4271FECFEA80085CBAC /* SZNanny.m in Sources */,
+				A921D1D71FFDCA4500380623 /* SZConcreteColleague2.m in Sources */,
 				A989F3451FECFE2F0085CBAC /* AppDelegate.m in Sources */,
 				A9BE46821FFBC8D900798B25 /* SZMajordomo.m in Sources */,
 				A989F47A1FF0D5ED0085CBAC /* SZStateViewController.m in Sources */,
 				A9BE46781FFB9FBB00798B25 /* SZConcreteHandler3.m in Sources */,
 				A989F49E1FF0FB320085CBAC /* SZGuards.m in Sources */,
+				A921D1D61FFDCA4500380623 /* SZConcreteColleague1.m in Sources */,
 				A989F4EB1FF4A0DA0085CBAC /* SZRefinedAbstraction.m in Sources */,
 				A989F49B1FF0FAE90085CBAC /* SZCenter.m in Sources */,
 				A989F40A1FECFEA80085CBAC /* SZMakeCoffee.m in Sources */,
@@ -1347,8 +1419,10 @@
 				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
 				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
 				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
+				A921D1DD1FFDD10A00380623 /* SZUSA.m in Sources */,
 				A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */,
 				A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */,
+				A921D1E01FFDD18A00380623 /* SZIraq.m in Sources */,
 				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
 				A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */,
 				A9BE466E1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m in Sources */,
