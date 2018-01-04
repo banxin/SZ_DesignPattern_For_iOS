@@ -20,7 +20,7 @@
        return [_uinityNations declare:msg country:self];
     }
     
-    return @"不知道向谁声明？";
+    return @"不知道向谁声明！！！";
 }
 
 - (NSString *)getMessage:(NSString *)msg

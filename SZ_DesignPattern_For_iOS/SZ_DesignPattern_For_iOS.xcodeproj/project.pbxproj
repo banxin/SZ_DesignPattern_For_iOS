@@ -14,6 +14,12 @@
 		A921D1DD1FFDD10A00380623 /* SZUSA.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1DC1FFDD10A00380623 /* SZUSA.m */; };
 		A921D1E01FFDD18A00380623 /* SZIraq.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1DF1FFDD18A00380623 /* SZIraq.m */; };
 		A921D1E31FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1E21FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m */; };
+		A921D1E91FFE014400380623 /* SZFlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1E81FFE014400380623 /* SZFlyweightViewController.m */; };
+		A921D1ED1FFE06B000380623 /* SZConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1EC1FFE06B000380623 /* SZConcreteFlyweight.m */; };
+		A921D1F01FFE075300380623 /* SZUnsharedConcreteFlyweight.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1EF1FFE075300380623 /* SZUnsharedConcreteFlyweight.m */; };
+		A921D1F31FFE08BC00380623 /* SZFlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1F21FFE08BC00380623 /* SZFlyweightFactory.m */; };
+		A921D1F71FFE10B100380623 /* SZConcreteWebsite.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1F61FFE10B100380623 /* SZConcreteWebsite.m */; };
+		A921D1FA1FFE114E00380623 /* SZWebsiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D1F91FFE114E00380623 /* SZWebsiteFactory.m */; };
 		A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */; };
 		A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2101FFA03E400D5BCFD /* SZReceiver.m */; };
 		A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */; };
@@ -182,6 +188,20 @@
 		A921D1DF1FFDD18A00380623 /* SZIraq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZIraq.m; sourceTree = "<group>"; };
 		A921D1E11FFDD1E400380623 /* SZUniteNationsSecurityCouncil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUniteNationsSecurityCouncil.h; sourceTree = "<group>"; };
 		A921D1E21FFDD1E400380623 /* SZUniteNationsSecurityCouncil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUniteNationsSecurityCouncil.m; sourceTree = "<group>"; };
+		A921D1E71FFE014400380623 /* SZFlyweightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFlyweightViewController.h; sourceTree = "<group>"; };
+		A921D1E81FFE014400380623 /* SZFlyweightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFlyweightViewController.m; sourceTree = "<group>"; };
+		A921D1EA1FFE060400380623 /* SZFlyweightProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFlyweightProtocol.h; sourceTree = "<group>"; };
+		A921D1EB1FFE06B000380623 /* SZConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteFlyweight.h; sourceTree = "<group>"; };
+		A921D1EC1FFE06B000380623 /* SZConcreteFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteFlyweight.m; sourceTree = "<group>"; };
+		A921D1EE1FFE075300380623 /* SZUnsharedConcreteFlyweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZUnsharedConcreteFlyweight.h; sourceTree = "<group>"; };
+		A921D1EF1FFE075300380623 /* SZUnsharedConcreteFlyweight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZUnsharedConcreteFlyweight.m; sourceTree = "<group>"; };
+		A921D1F11FFE08BC00380623 /* SZFlyweightFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFlyweightFactory.h; sourceTree = "<group>"; };
+		A921D1F21FFE08BC00380623 /* SZFlyweightFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFlyweightFactory.m; sourceTree = "<group>"; };
+		A921D1F41FFE107E00380623 /* SZWebsiteProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWebsiteProtocol.h; sourceTree = "<group>"; };
+		A921D1F51FFE10B100380623 /* SZConcreteWebsite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteWebsite.h; sourceTree = "<group>"; };
+		A921D1F61FFE10B100380623 /* SZConcreteWebsite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteWebsite.m; sourceTree = "<group>"; };
+		A921D1F81FFE114E00380623 /* SZWebsiteFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWebsiteFactory.h; sourceTree = "<group>"; };
+		A921D1F91FFE114E00380623 /* SZWebsiteFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWebsiteFactory.m; sourceTree = "<group>"; };
 		A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandViewController.h; sourceTree = "<group>"; };
 		A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommandViewController.m; sourceTree = "<group>"; };
 		A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandProtocol.h; sourceTree = "<group>"; };
@@ -537,6 +557,43 @@
 			path = "中介者模式事例代码";
 			sourceTree = "<group>";
 		};
+		A921D1E41FFE008600380623 /* 22.享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1E71FFE014400380623 /* SZFlyweightViewController.h */,
+				A921D1E81FFE014400380623 /* SZFlyweightViewController.m */,
+				A921D1E61FFE008600380623 /* 享元模式基本代码 */,
+				A921D1E51FFE008600380623 /* 享元模式事例代码 */,
+			);
+			path = "22.享元模式";
+			sourceTree = "<group>";
+		};
+		A921D1E51FFE008600380623 /* 享元模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1F41FFE107E00380623 /* SZWebsiteProtocol.h */,
+				A921D1F51FFE10B100380623 /* SZConcreteWebsite.h */,
+				A921D1F61FFE10B100380623 /* SZConcreteWebsite.m */,
+				A921D1F81FFE114E00380623 /* SZWebsiteFactory.h */,
+				A921D1F91FFE114E00380623 /* SZWebsiteFactory.m */,
+			);
+			path = "享元模式事例代码";
+			sourceTree = "<group>";
+		};
+		A921D1E61FFE008600380623 /* 享元模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A921D1EA1FFE060400380623 /* SZFlyweightProtocol.h */,
+				A921D1EB1FFE06B000380623 /* SZConcreteFlyweight.h */,
+				A921D1EC1FFE06B000380623 /* SZConcreteFlyweight.m */,
+				A921D1EE1FFE075300380623 /* SZUnsharedConcreteFlyweight.h */,
+				A921D1EF1FFE075300380623 /* SZUnsharedConcreteFlyweight.m */,
+				A921D1F11FFE08BC00380623 /* SZFlyweightFactory.h */,
+				A921D1F21FFE08BC00380623 /* SZFlyweightFactory.m */,
+			);
+			path = "享元模式基本代码";
+			sourceTree = "<group>";
+		};
 		A923C2081FFA022C00D5BCFD /* 19.命令模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,6 +679,7 @@
 				A923C2081FFA022C00D5BCFD /* 19.命令模式 */,
 				A9BE46691FFB9CE000798B25 /* 20.职责链模式 */,
 				A921D1C81FFDCA4400380623 /* 21.中介者模式 */,
+				A921D1E41FFE008600380623 /* 22.享元模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -1321,6 +1379,7 @@
 				A989F4511FEE67F40085CBAC /* SZBoss.m in Sources */,
 				A989F4141FECFEA80085CBAC /* SZBuildPerson.m in Sources */,
 				A989F40D1FECFEA80085CBAC /* SZConcreteDecoratorA.m in Sources */,
+				A921D1E91FFE014400380623 /* SZFlyweightViewController.m in Sources */,
 				A989F4181FECFEA80085CBAC /* SZBuildBody.m in Sources */,
 				A989F4151FECFEA80085CBAC /* SZBuildArm.m in Sources */,
 				A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */,
@@ -1328,6 +1387,7 @@
 				A989F47E1FF0D8FA0085CBAC /* SZWork.m in Sources */,
 				A923C2211FFA09B400D5BCFD /* SZBakeChickenWingCommand.m in Sources */,
 				A989F4551FF09A2D0085CBAC /* SZAbstractFactoryViewController.m in Sources */,
+				A921D1F01FFE075300380623 /* SZUnsharedConcreteFlyweight.m in Sources */,
 				A989F42F1FECFEA80085CBAC /* SZCashReturn.m in Sources */,
 				A989F41F1FECFEA80085CBAC /* SZOperationDivide.m in Sources */,
 				A989F40C1FECFEA80085CBAC /* SZDecorator.m in Sources */,
@@ -1369,6 +1429,7 @@
 				A989F4A81FF11F7F0085CBAC /* SZMementoViewController.m in Sources */,
 				A989F40B1FECFEA80085CBAC /* SZConcreteDecoratorB.m in Sources */,
 				A989F4341FECFEA80085CBAC /* SZOperationAddFactory.m in Sources */,
+				A921D1F31FFE08BC00380623 /* SZFlyweightFactory.m in Sources */,
 				A921D1D81FFDCA4500380623 /* SZMediatorViewController.m in Sources */,
 				A989F4061FECFEA80085CBAC /* SZCoffeeBeanA.m in Sources */,
 				A989F4121FECFEA80085CBAC /* SZStock.m in Sources */,
@@ -1418,9 +1479,11 @@
 				A989F4661FF0A41B0085CBAC /* SZSqlserveFactory.m in Sources */,
 				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
 				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
+				A921D1ED1FFE06B000380623 /* SZConcreteFlyweight.m in Sources */,
 				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
 				A921D1DD1FFDD10A00380623 /* SZUSA.m in Sources */,
 				A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */,
+				A921D1F71FFE10B100380623 /* SZConcreteWebsite.m in Sources */,
 				A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */,
 				A921D1E01FFDD18A00380623 /* SZIraq.m in Sources */,
 				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
@@ -1429,6 +1492,7 @@
 				A989F4901FF0E0D10085CBAC /* SZRestState.m in Sources */,
 				A989F4701FF0A7B30085CBAC /* SZSqlserveDepartment.m in Sources */,
 				A989F4A41FF0FC920085CBAC /* SZTranslator.m in Sources */,
+				A921D1FA1FFE114E00380623 /* SZWebsiteFactory.m in Sources */,
 				A989F4A11FF0FB990085CBAC /* SZCNCenter.m in Sources */,
 				A989F43C1FECFEA80085CBAC /* SZSubResume.m in Sources */,
 				A923C21E1FFA086A00D5BCFD /* SZBakeMuttonCommand.m in Sources */,
