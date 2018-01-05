@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"享元模式";
 
     self.lblTips.text = @"点击屏幕测试哦！！！";
 }
