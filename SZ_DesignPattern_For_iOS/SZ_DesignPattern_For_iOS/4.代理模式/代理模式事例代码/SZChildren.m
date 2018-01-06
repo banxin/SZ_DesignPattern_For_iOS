@@ -16,7 +16,7 @@
  // 这个代理对象必须遵从ChildrenDelegate协议
  */
 
-// 这个变量就是小孩的代理对象 ？？ 疑问：存不住值
+// 这个变量就是小孩的代理对象 
 @property (nonatomic, weak) id<SZChildrenDelegate> delegate;
 
 @end

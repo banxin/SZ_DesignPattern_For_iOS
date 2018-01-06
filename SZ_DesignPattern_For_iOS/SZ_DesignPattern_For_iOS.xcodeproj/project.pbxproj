@@ -36,6 +36,31 @@
 		A921D2361FFF55D800380623 /* SZFailed.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D2351FFF55D800380623 /* SZFailed.m */; };
 		A921D2391FFF55FC00380623 /* SZAmativeness.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D2381FFF55FC00380623 /* SZAmativeness.m */; };
 		A921D23C1FFF575500380623 /* SZPersonObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = A921D23B1FFF575500380623 /* SZPersonObjectStructure.m */; };
+		A921D23E1FFF708F00380623 /* 简单工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D23D1FFF708F00380623 /* 简单工厂模式.png */; };
+		A921D2401FFF7A6F00380623 /* Startegy.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D23F1FFF7A6F00380623 /* Startegy.png */; };
+		A921D2421FFF90B800380623 /* 装饰模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2411FFF90B800380623 /* 装饰模式.png */; };
+		A921D2442000B2F400380623 /* 代理模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2432000B2F400380623 /* 代理模式.png */; };
+		A921D2472000B4EB00380623 /* 工厂方法模式基本.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2452000B4EA00380623 /* 工厂方法模式基本.png */; };
+		A921D2482000B4EB00380623 /* 工厂方法事例.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2462000B4EA00380623 /* 工厂方法事例.png */; };
+		A921D24A2000BF3700380623 /* 原型模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2492000BF3700380623 /* 原型模式.png */; };
+		A921D24C2000BFAB00380623 /* 模板方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D24B2000BFAB00380623 /* 模板方法模式.png */; };
+		A921D24E2000C03900380623 /* 外观模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D24D2000C03900380623 /* 外观模式.png */; };
+		A921D2502000C0A200380623 /* 建造者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D24F2000C0A200380623 /* 建造者模式.png */; };
+		A921D2522000C10100380623 /* 观察者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2512000C10100380623 /* 观察者模式.png */; };
+		A921D2542000C22000380623 /* 抽象工厂.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2532000C21F00380623 /* 抽象工厂.png */; };
+		A921D2562000C27A00380623 /* 状态模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2552000C27A00380623 /* 状态模式.png */; };
+		A921D2582000C2CA00380623 /* 适配器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2572000C2C900380623 /* 适配器模式.png */; };
+		A921D25A2000C40200380623 /* 备忘录模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2592000C40200380623 /* 备忘录模式.png */; };
+		A921D25C200101A900380623 /* 组合模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D25B200101A800380623 /* 组合模式.png */; };
+		A921D25E200101F600380623 /* 迭代器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D25D200101F600380623 /* 迭代器模式.png */; };
+		A921D2602001024A00380623 /* 单例模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D25F2001024A00380623 /* 单例模式.png */; };
+		A921D262200102D200380623 /* 桥接模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D261200102D200380623 /* 桥接模式.png */; };
+		A921D2642001031D00380623 /* 命令模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2632001031D00380623 /* 命令模式.png */; };
+		A921D2662001036600380623 /* 职责链模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D2652001036600380623 /* 职责链模式.png */; };
+		A921D268200103B600380623 /* 中介者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D267200103B600380623 /* 中介者模式.png */; };
+		A921D26A200103F800380623 /* 享元模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D269200103F800380623 /* 享元模式.png */; };
+		A921D26C2001043800380623 /* 解释器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D26B2001043800380623 /* 解释器模式.png */; };
+		A921D26E200104BC00380623 /* 访问者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = A921D26D200104BC00380623 /* 访问者模式.png */; };
 		A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */; };
 		A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2101FFA03E400D5BCFD /* SZReceiver.m */; };
 		A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */; };
@@ -255,6 +280,31 @@
 		A921D2381FFF55FC00380623 /* SZAmativeness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAmativeness.m; sourceTree = "<group>"; };
 		A921D23A1FFF575500380623 /* SZPersonObjectStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZPersonObjectStructure.h; sourceTree = "<group>"; };
 		A921D23B1FFF575500380623 /* SZPersonObjectStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZPersonObjectStructure.m; sourceTree = "<group>"; };
+		A921D23D1FFF708F00380623 /* 简单工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂模式.png"; sourceTree = "<group>"; };
+		A921D23F1FFF7A6F00380623 /* Startegy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Startegy.png; sourceTree = "<group>"; };
+		A921D2411FFF90B800380623 /* 装饰模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "装饰模式.png"; sourceTree = "<group>"; };
+		A921D2432000B2F400380623 /* 代理模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理模式.png"; sourceTree = "<group>"; };
+		A921D2452000B4EA00380623 /* 工厂方法模式基本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式基本.png"; sourceTree = "<group>"; };
+		A921D2462000B4EA00380623 /* 工厂方法事例.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法事例.png"; sourceTree = "<group>"; };
+		A921D2492000BF3700380623 /* 原型模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原型模式.png"; sourceTree = "<group>"; };
+		A921D24B2000BFAB00380623 /* 模板方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模板方法模式.png"; sourceTree = "<group>"; };
+		A921D24D2000C03900380623 /* 外观模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "外观模式.png"; sourceTree = "<group>"; };
+		A921D24F2000C0A200380623 /* 建造者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建造者模式.png"; sourceTree = "<group>"; };
+		A921D2512000C10100380623 /* 观察者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "观察者模式.png"; sourceTree = "<group>"; };
+		A921D2532000C21F00380623 /* 抽象工厂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂.png"; sourceTree = "<group>"; };
+		A921D2552000C27A00380623 /* 状态模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "状态模式.png"; sourceTree = "<group>"; };
+		A921D2572000C2C900380623 /* 适配器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "适配器模式.png"; sourceTree = "<group>"; };
+		A921D2592000C40200380623 /* 备忘录模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "备忘录模式.png"; sourceTree = "<group>"; };
+		A921D25B200101A800380623 /* 组合模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组合模式.png"; sourceTree = "<group>"; };
+		A921D25D200101F600380623 /* 迭代器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "迭代器模式.png"; sourceTree = "<group>"; };
+		A921D25F2001024A00380623 /* 单例模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单例模式.png"; sourceTree = "<group>"; };
+		A921D261200102D200380623 /* 桥接模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桥接模式.png"; sourceTree = "<group>"; };
+		A921D2632001031D00380623 /* 命令模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "命令模式.png"; sourceTree = "<group>"; };
+		A921D2652001036600380623 /* 职责链模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "职责链模式.png"; sourceTree = "<group>"; };
+		A921D267200103B600380623 /* 中介者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中介者模式.png"; sourceTree = "<group>"; };
+		A921D269200103F800380623 /* 享元模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "享元模式.png"; sourceTree = "<group>"; };
+		A921D26B2001043800380623 /* 解释器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "解释器模式.png"; sourceTree = "<group>"; };
+		A921D26D200104BC00380623 /* 访问者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "访问者模式.png"; sourceTree = "<group>"; };
 		A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandViewController.h; sourceTree = "<group>"; };
 		A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommandViewController.m; sourceTree = "<group>"; };
 		A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandProtocol.h; sourceTree = "<group>"; };
@@ -572,6 +622,7 @@
 		A921D1C81FFDCA4400380623 /* 21.中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D267200103B600380623 /* 中介者模式.png */,
 				A921D1D21FFDCA4400380623 /* SZMediatorViewController.h */,
 				A921D1D41FFDCA4400380623 /* SZMediatorViewController.m */,
 				A921D1C91FFDCA4400380623 /* 中介者模式基本代码 */,
@@ -613,6 +664,7 @@
 		A921D1E41FFE008600380623 /* 22.享元模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D269200103F800380623 /* 享元模式.png */,
 				A921D1E71FFE014400380623 /* SZFlyweightViewController.h */,
 				A921D1E81FFE014400380623 /* SZFlyweightViewController.m */,
 				A921D1E61FFE008600380623 /* 享元模式基本代码 */,
@@ -650,6 +702,7 @@
 		A921D1FB1FFE573100380623 /* 23.解释器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D26B2001043800380623 /* 解释器模式.png */,
 				A921D1FE1FFF1FC900380623 /* SZInterpreterViewController.h */,
 				A921D1FF1FFF1FC900380623 /* SZInterpreterViewController.m */,
 				A921D1FD1FFF1FAA00380623 /* 解释器模式基本代码 */,
@@ -674,6 +727,7 @@
 		A921D2121FFF2AEC00380623 /* 24.访问者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D26D200104BC00380623 /* 访问者模式.png */,
 				A921D2151FFF2B3C00380623 /* SZVisitorViewController.h */,
 				A921D2161FFF2B3C00380623 /* SZVisitorViewController.m */,
 				A921D2141FFF2AEC00380623 /* 访问者模式基本代码 */,
@@ -725,6 +779,7 @@
 		A923C2081FFA022C00D5BCFD /* 19.命令模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2632001031D00380623 /* 命令模式.png */,
 				A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */,
 				A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */,
 				A923C20A1FFA022C00D5BCFD /* 命令模式基本代码 */,
@@ -845,6 +900,7 @@
 		A989F3761FECFEA60085CBAC /* 3.装饰模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2411FFF90B800380623 /* 装饰模式.png */,
 				A989F3941FECFEA60085CBAC /* SZDecoratorViewController.h */,
 				A989F3771FECFEA60085CBAC /* SZDecoratorViewController.m */,
 				A989F3881FECFEA60085CBAC /* 装饰模式基本代码 */,
@@ -924,6 +980,7 @@
 		A989F3951FECFEA60085CBAC /* 8.外观模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D24D2000C03900380623 /* 外观模式.png */,
 				A989F39A1FECFEA60085CBAC /* SZFacadeViewController.h */,
 				A989F3A01FECFEA60085CBAC /* SZFacadeViewController.m */,
 				A989F3991FECFEA60085CBAC /* SZTradeProtocol.h */,
@@ -942,6 +999,7 @@
 		A989F3A11FECFEA60085CBAC /* 9.建造者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D24F2000C0A200380623 /* 建造者模式.png */,
 				A989F3AB1FECFEA60085CBAC /* SZBuilderViewController.h */,
 				A989F3B41FECFEA60085CBAC /* SZBuilderViewController.m */,
 				A989F3A21FECFEA60085CBAC /* SZBuildPersonProtocol.h */,
@@ -968,6 +1026,7 @@
 		A989F3B51FECFEA60085CBAC /* 1.简单工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D23D1FFF708F00380623 /* 简单工厂模式.png */,
 				A989F3BB1FECFEA60085CBAC /* SZSimpleFactoryViewController.h */,
 				A989F3C01FECFEA60085CBAC /* SZSimpleFactoryViewController.m */,
 				A989F3B81FECFEA60085CBAC /* SZOperationFactory.h */,
@@ -988,6 +1047,7 @@
 		A989F3C31FECFEA60085CBAC /* 4.代理模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2432000B2F400380623 /* 代理模式.png */,
 				A989F3CC1FECFEA60085CBAC /* SZProxyViewController.h */,
 				A989F3D41FECFEA60085CBAC /* SZProxyViewController.m */,
 				A989F3C41FECFEA60085CBAC /* 代理模式基本代码 */,
@@ -1026,6 +1086,7 @@
 		A989F3D61FECFEA70085CBAC /* 7.模板模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D24B2000BFAB00380623 /* 模板方法模式.png */,
 				A989F3D91FECFEA70085CBAC /* SZTemplateMethodViewController.h */,
 				A989F3DD1FECFEA70085CBAC /* SZTemplateMethodViewController.m */,
 				A989F3D71FECFEA70085CBAC /* SZAnswerProtocol.h */,
@@ -1042,6 +1103,7 @@
 		A989F3E11FECFEA70085CBAC /* 2.策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D23F1FFF7A6F00380623 /* Startegy.png */,
 				A989F3E41FECFEA70085CBAC /* SZStrategyViewController.h */,
 				A989F3E91FECFEA70085CBAC /* SZStrategyViewController.m */,
 				A989F3E21FECFEA70085CBAC /* SZCashOperation.h */,
@@ -1060,6 +1122,8 @@
 		A989F3ED1FECFEA70085CBAC /* 5.工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2452000B4EA00380623 /* 工厂方法模式基本.png */,
+				A921D2462000B4EA00380623 /* 工厂方法事例.png */,
 				A989F3EE1FECFEA70085CBAC /* SZFactoryMethodViewController.h */,
 				A989F3F51FECFEA70085CBAC /* SZFactoryMethodViewController.m */,
 				A989F3F01FECFEA70085CBAC /* SZOperationFactory.h */,
@@ -1078,6 +1142,7 @@
 		A989F3F91FECFEA70085CBAC /* 6.原型模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2492000BF3700380623 /* 原型模式.png */,
 				A989F3FB1FECFEA70085CBAC /* SZPrototypeViewController.h */,
 				A989F3FF1FECFEA70085CBAC /* SZPrototypeViewController.m */,
 				A989F4001FECFEA70085CBAC /* SZResume.h */,
@@ -1093,6 +1158,7 @@
 		A989F4021FECFEA70085CBAC /* 10.观察者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2512000C10100380623 /* 观察者模式.png */,
 				A989F43E1FEE596B0085CBAC /* SZObserveViewController.h */,
 				A989F43F1FEE596B0085CBAC /* SZObserveViewController.m */,
 				A989F4471FEE611F0085CBAC /* SZObserve.h */,
@@ -1112,6 +1178,7 @@
 		A989F4521FF092020085CBAC /* 11.抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2532000C21F00380623 /* 抽象工厂.png */,
 				A989F4531FF09A2D0085CBAC /* SZAbstractFactoryViewController.h */,
 				A989F4541FF09A2D0085CBAC /* SZAbstractFactoryViewController.m */,
 				A989F4561FF09B530085CBAC /* 抽象工厂模式基本代码 */,
@@ -1158,6 +1225,7 @@
 		A989F4771FF0D52B0085CBAC /* 12.状态模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2552000C27A00380623 /* 状态模式.png */,
 				A989F4781FF0D5ED0085CBAC /* SZStateViewController.h */,
 				A989F4791FF0D5ED0085CBAC /* SZStateViewController.m */,
 				A989F47B1FF0D87F0085CBAC /* SZStateProtocol.h */,
@@ -1182,6 +1250,7 @@
 		A989F4911FF0E8460085CBAC /* 13.适配器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2572000C2C900380623 /* 适配器模式.png */,
 				A989F4921FF0F4C90085CBAC /* SZAdapterViewController.h */,
 				A989F4931FF0F4C90085CBAC /* SZAdapterViewController.m */,
 				A989F4951FF0F5B90085CBAC /* SZPlayerProtocol.h */,
@@ -1202,6 +1271,7 @@
 		A989F4A51FF11D810085CBAC /* 14.备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2592000C40200380623 /* 备忘录模式.png */,
 				A989F4A61FF11F7F0085CBAC /* SZMementoViewController.h */,
 				A989F4A71FF11F7F0085CBAC /* SZMementoViewController.m */,
 				A989F4A91FF122CE0085CBAC /* SZGameRoll.h */,
@@ -1217,6 +1287,7 @@
 		A989F4B21FF2566C0085CBAC /* 15.组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D25B200101A800380623 /* 组合模式.png */,
 				A989F4B31FF256B00085CBAC /* SZCompositeViewController.h */,
 				A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */,
 				A989F4B71FF257290085CBAC /* 组合模式基本代码 */,
@@ -1254,6 +1325,7 @@
 		A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D25D200101F600380623 /* 迭代器模式.png */,
 				A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */,
 				A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */,
 			);
@@ -1263,6 +1335,7 @@
 		A989F4D41FF3CD770085CBAC /* 17.单例模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D25F2001024A00380623 /* 单例模式.png */,
 				A989F4D51FF3CDAA0085CBAC /* SZSingletonViewController.h */,
 				A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */,
 				A989F4D81FF3CE350085CBAC /* SZSingleton.h */,
@@ -1274,6 +1347,7 @@
 		A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D261200102D200380623 /* 桥接模式.png */,
 				A989F4DC1FF487810085CBAC /* SZViewBridgeController.h */,
 				A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */,
 				A989F4DF1FF48B370085CBAC /* 桥接模式基本代码 */,
@@ -1317,6 +1391,7 @@
 		A9BE46691FFB9CE000798B25 /* 20.职责链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				A921D2652001036600380623 /* 职责链模式.png */,
 				A9BE466C1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.h */,
 				A9BE466D1FFB9D1A00798B25 /* SZChainOfResponsibilityViewController.m */,
 				A9BE466A1FFB9CE000798B25 /* 职责链模式基本代码 */,
@@ -1462,8 +1537,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A921D25A2000C40200380623 /* 备忘录模式.png in Resources */,
+				A921D2482000B4EB00380623 /* 工厂方法事例.png in Resources */,
+				A921D24C2000BFAB00380623 /* 模板方法模式.png in Resources */,
+				A921D2542000C22000380623 /* 抽象工厂.png in Resources */,
+				A921D2642001031D00380623 /* 命令模式.png in Resources */,
+				A921D2582000C2CA00380623 /* 适配器模式.png in Resources */,
 				A989F3501FECFE2F0085CBAC /* LaunchScreen.storyboard in Resources */,
 				A989F34D1FECFE2F0085CBAC /* Assets.xcassets in Resources */,
+				A921D2442000B2F400380623 /* 代理模式.png in Resources */,
+				A921D268200103B600380623 /* 中介者模式.png in Resources */,
+				A921D2401FFF7A6F00380623 /* Startegy.png in Resources */,
+				A921D2522000C10100380623 /* 观察者模式.png in Resources */,
+				A921D26E200104BC00380623 /* 访问者模式.png in Resources */,
+				A921D23E1FFF708F00380623 /* 简单工厂模式.png in Resources */,
+				A921D25C200101A900380623 /* 组合模式.png in Resources */,
+				A921D26A200103F800380623 /* 享元模式.png in Resources */,
+				A921D2502000C0A200380623 /* 建造者模式.png in Resources */,
+				A921D24E2000C03900380623 /* 外观模式.png in Resources */,
+				A921D2562000C27A00380623 /* 状态模式.png in Resources */,
+				A921D2602001024A00380623 /* 单例模式.png in Resources */,
+				A921D24A2000BF3700380623 /* 原型模式.png in Resources */,
+				A921D2472000B4EB00380623 /* 工厂方法模式基本.png in Resources */,
+				A921D262200102D200380623 /* 桥接模式.png in Resources */,
+				A921D25E200101F600380623 /* 迭代器模式.png in Resources */,
+				A921D2662001036600380623 /* 职责链模式.png in Resources */,
+				A921D2421FFF90B800380623 /* 装饰模式.png in Resources */,
+				A921D26C2001043800380623 /* 解释器模式.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
